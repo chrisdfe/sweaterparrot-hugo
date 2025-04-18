@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ .Content }}
+    holme
+
+  {{ $projects := where site.RegularPages "Section" "projects" }}
+  <h1>projects</h1>
+  {{ range $projects }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+
+  {{ $artworks := where site.RegularPages "Section" "artworks" }}
+
+  <h1>artworks</h1>
+  {{ range $artworks }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+
+  asdfasdfasd
+
+{{ end }}
