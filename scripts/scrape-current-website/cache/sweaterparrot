@@ -1,0 +1,756 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="twitter:card"  content="summary_large_image" />
+      <meta name="twitter:site"  content="@AdobePortfolio" />
+      <meta  property="og:title" content="Christopher Ferris" />
+      <meta  property="og:image" content="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_car_202x158.png?h=0c34c93183f8532652d70a572922ca4e" />
+      <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURUxpcU3H2DoAAAABdFJOUwBA5thmAAAADElEQVQI12NgIA0AAAAwAAHHqoWOAAAAAElFTkSuQmCC"  />
+      <link rel="stylesheet" href="/dist/css/main.css" type="text/css" />
+      <link rel="stylesheet" href="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f9131ecd63be15d4e17c38b5844def3a1736881142.css?h=1b1d1e8f30847b5277667e5b8cf5fcb9" type="text/css" />
+    <link rel="canonical" href="https://sweaterparrot.com/work" />
+      <title>Christopher Ferris</title>
+    <script type="text/javascript" src="//use.typekit.net/ik/VP-jxKcXYJHluwz37MeKfeAExOZsmO2X5cVLjpOKZ09feGGffHYEBsJzwD9oFDIDWhsqjDqowQ6ajQ8cw2myFQJ3ZcFywh4cjQqowQyqwDIawRFR5A9aFQS-q3I7OcuoSeNkieZzde8zOcFzdP37O1gkdDJlic88ikolpWgzS1scdhUTdkoRdhXCHKoDihmyiemkSeBkScNXOcFzdPUlpWgzS1scdhUTdkoRdhXCSY4zwKuh-AmaOcuoSeNkieZzde8zOcFzdPUDihmyiemkSeBkScNXOcFzdPUaiaS0Sai8jWs8S1gyS14zifoRdhXKgeZKdetKgYZRShX7fbRIggMMeMt6MKG4fwwIIMMjgfMfH6qJUbbbMg6YJMJ7fbKzMsMgeMb6MTMgod0-13j.js?cb=66e5f68ba84984f4e3765ab4f818d478913484b9" async onload="
+    try {
+      window.Typekit.load();
+    } catch (e) {
+      console.warn('Typekit not loaded.');
+    }
+    "></script>
+</head>
+  <body class="transition-enabled">  <div class='page-background-video page-background-video-with-panel'>
+  </div>
+  <div class="js-responsive-nav">
+    <div class="responsive-nav has-social">
+      <div class="close-responsive-click-area js-close-responsive-nav">
+        <div class="close-responsive-button"></div>
+      </div>
+          <div class="nav-container">
+            <nav data-hover-hint="nav">
+      <div class="page-title">
+        <a href="/about" >About</a>
+      </div>
+                <div class="gallery-title"><a href="/work" class="active">Work</a></div>
+      <div class="page-title">
+        <a href="/contact" >Contact</a>
+      </div>
+                <div class="social pf-nav-social" data-hover-hint="navSocialIcons">
+                  <ul>
+                          <li>
+                            <a href="https://twitter.com/sweaterparrot" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-8 -3 35 24" xml:space="preserve" class="icon"><path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z"/></svg>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.instagram.com/sweaterparrot/" target="_blank">
+                              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                              <g>
+                                <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9
+                                  c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6
+                                  c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6
+                                  c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9
+                                  c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4
+                                  c-0.5,0.2-1,0.5-1.4,0.9C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9
+                                  c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0c0.9,0,1.4-0.2,1.9-0.4
+                                  c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9
+                                  c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9c-0.5-0.2-1.1-0.3-1.9-0.4C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                                <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7c-1.5,0-2.7-1.2-2.7-2.7
+                                  c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                                <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+                              </g>
+                              </svg>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://www.tiktok.com/@sweaterparrot" target="_blank">
+                              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                              	 viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                              <path d="M22,10.4c-0.1,0-0.3,0-0.4,0c-1.5,0-2.9-0.7-3.7-2v6.8c0,2.8-2.2,5-5,5s-5-2.2-5-5s2.2-5,5-5l0,0c0.1,0,0.2,0,0.3,0v2.5
+                              	c-0.1,0-0.2,0-0.3,0c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.7-1.1,2.7-2.5l0-11.5H18c0.2,2.1,1.9,3.8,4,3.9L22,10.4"
+                              	/>
+                              </svg>
+                            </a>
+                          </li>
+                          <li>
+                            <a href="https://sweater-parrot.tumblr.com/" target="_blank">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M18.74 16.78c-0.29 0.14-0.85 0.26-1.26 0.28c-1.25 0.03-1.49-0.9-1.5-1.58V10.5h3.14V8.08h-3.13V4 c0 0-2.25 0-2.29 0c-0.04 0-0.1 0.03-0.11 0.12c-0.13 1.25-0.7 3.43-3.08 4.31v2.07h1.58v5.23c0 1.8 1.3 4.3 4.7 4.3 c1.15-0.02 2.42-0.51 2.71-0.94L18.74 16.78z"/></svg>
+                            </a>
+                          </li>
+                  </ul>
+                </div>
+            </nav>
+          </div>
+    </div>
+  </div>
+  <div class="site-wrap cfix js-site-wrap">
+    <div class="site-container">
+      <div class="site-content e2e-site-content">
+        <header class="site-header">
+          <div class="logo-container">
+              <div class="logo-wrap" data-hover-hint="logo">
+                    <div class="logo e2e-site-logo-text logo-text  ">
+    <a href="/work" class="preserve-whitespace">@sweaterparrot</a>
+
+</div>
+              </div>
+  <div class="hamburger-click-area js-hamburger">
+    <div class="hamburger">
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+  </div>
+          </div>
+              <div class="nav-container">
+                <nav data-hover-hint="nav">
+      <div class="page-title">
+        <a href="/about" >About</a>
+      </div>
+                <div class="gallery-title"><a href="/work" class="active">Work</a></div>
+      <div class="page-title">
+        <a href="/contact" >Contact</a>
+      </div>
+                    <div class="social pf-nav-social" data-hover-hint="navSocialIcons">
+                      <ul>
+                              <li>
+                                <a href="https://twitter.com/sweaterparrot" target="_blank">
+                                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="-8 -3 35 24" xml:space="preserve" class="icon"><path d="M10.4 7.4 16.9 0h-1.5L9.7 6.4 5.2 0H0l6.8 9.7L0 17.4h1.5l5.9-6.8 4.7 6.8h5.2l-6.9-10ZM8.3 9.8l-.7-1-5.5-7.6h2.4l4.4 6.2.7 1 5.7 8h-2.4L8.3 9.8Z"/></svg>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="https://www.instagram.com/sweaterparrot/" target="_blank">
+                                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                                  <g>
+                                    <path d="M15,5.4c2.1,0,2.4,0,3.2,0c0.8,0,1.2,0.2,1.5,0.3c0.4,0.1,0.6,0.3,0.9,0.6c0.3,0.3,0.5,0.5,0.6,0.9
+                                      c0.1,0.3,0.2,0.7,0.3,1.5c0,0.8,0,1.1,0,3.2s0,2.4,0,3.2c0,0.8-0.2,1.2-0.3,1.5c-0.1,0.4-0.3,0.6-0.6,0.9c-0.3,0.3-0.5,0.5-0.9,0.6
+                                      c-0.3,0.1-0.7,0.2-1.5,0.3c-0.8,0-1.1,0-3.2,0s-2.4,0-3.2,0c-0.8,0-1.2-0.2-1.5-0.3c-0.4-0.1-0.6-0.3-0.9-0.6
+                                      c-0.3-0.3-0.5-0.5-0.6-0.9c-0.1-0.3-0.2-0.7-0.3-1.5c0-0.8,0-1.1,0-3.2s0-2.4,0-3.2c0-0.8,0.2-1.2,0.3-1.5c0.1-0.4,0.3-0.6,0.6-0.9
+                                      c0.3-0.3,0.5-0.5,0.9-0.6c0.3-0.1,0.7-0.2,1.5-0.3C12.6,5.4,12.9,5.4,15,5.4 M15,4c-2.2,0-2.4,0-3.3,0c-0.9,0-1.4,0.2-1.9,0.4
+                                      c-0.5,0.2-1,0.5-1.4,0.9C7.9,5.8,7.6,6.2,7.4,6.8C7.2,7.3,7.1,7.9,7,8.7C7,9.6,7,9.8,7,12s0,2.4,0,3.3c0,0.9,0.2,1.4,0.4,1.9
+                                      c0.2,0.5,0.5,1,0.9,1.4c0.4,0.4,0.9,0.7,1.4,0.9c0.5,0.2,1.1,0.3,1.9,0.4c0.9,0,1.1,0,3.3,0s2.4,0,3.3,0c0.9,0,1.4-0.2,1.9-0.4
+                                      c0.5-0.2,1-0.5,1.4-0.9c0.4-0.4,0.7-0.9,0.9-1.4c0.2-0.5,0.3-1.1,0.4-1.9c0-0.9,0-1.1,0-3.3s0-2.4,0-3.3c0-0.9-0.2-1.4-0.4-1.9
+                                      c-0.2-0.5-0.5-1-0.9-1.4c-0.4-0.4-0.9-0.7-1.4-0.9c-0.5-0.2-1.1-0.3-1.9-0.4C17.4,4,17.2,4,15,4L15,4L15,4z"/>
+                                    <path d="M15,7.9c-2.3,0-4.1,1.8-4.1,4.1s1.8,4.1,4.1,4.1s4.1-1.8,4.1-4.1S17.3,7.9,15,7.9L15,7.9z M15,14.7c-1.5,0-2.7-1.2-2.7-2.7
+                                      c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7C17.7,13.5,16.5,14.7,15,14.7L15,14.7z"/>
+                                    <path d="M20.2,7.7c0,0.5-0.4,1-1,1s-1-0.4-1-1s0.4-1,1-1S20.2,7.2,20.2,7.7L20.2,7.7z"/>
+                                  </g>
+                                  </svg>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="https://www.tiktok.com/@sweaterparrot" target="_blank">
+                                  <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                  	 viewBox="0 0 30 24" style="enable-background:new 0 0 30 24;" xml:space="preserve" class="icon">
+                                  <path d="M22,10.4c-0.1,0-0.3,0-0.4,0c-1.5,0-2.9-0.7-3.7-2v6.8c0,2.8-2.2,5-5,5s-5-2.2-5-5s2.2-5,5-5l0,0c0.1,0,0.2,0,0.3,0v2.5
+                                  	c-0.1,0-0.2,0-0.3,0c-1.4,0-2.5,1.1-2.5,2.5c0,1.4,1.1,2.5,2.5,2.5c1.4,0,2.7-1.1,2.7-2.5l0-11.5H18c0.2,2.1,1.9,3.8,4,3.9L22,10.4"
+                                  	/>
+                                  </svg>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="https://sweater-parrot.tumblr.com/" target="_blank">
+                                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" viewBox="0 0 30 24" xml:space="preserve" class="icon"><path d="M18.74 16.78c-0.29 0.14-0.85 0.26-1.26 0.28c-1.25 0.03-1.49-0.9-1.5-1.58V10.5h3.14V8.08h-3.13V4 c0 0-2.25 0-2.29 0c-0.04 0-0.1 0.03-0.11 0.12c-0.13 1.25-0.7 3.43-3.08 4.31v2.07h1.58v5.23c0 1.8 1.3 4.3 4.7 4.3 c1.15-0.02 2.42-0.51 2.71-0.94L18.74 16.78z"/></svg>
+                                </a>
+                              </li>
+                      </ul>
+                    </div>
+                </nav>
+              </div>
+        </header>
+        <main>
+          <section class="project-covers" data-context="page.gallery.covers">
+            <a class="project-cover js-project-cover-touch hold-space" href="/crailsheim-wasserturm" data-context="pages" data-identity="id:p660ed1dd8533f8dfb7d305d8c3ad14a3ee4f3e8b02cf15dfc5072" data-hover-hint="galleryPageCover" data-hover-hint-id="p660ed1dd8533f8dfb7d305d8c3ad14a3ee4f3e8b02cf15dfc5072">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x32.png?h=7c755b70e15eb67d0b3239f83272f0f9"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_car_202x158.png?h=0c34c93183f8532652d70a572922ca4e"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x640.png?h=bcab10fda3120f28e332f0745f8f3df1 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x1280.png?h=36e3a940e35b3aedcdd17ec124687908 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x1366.png?h=0880194ae5bfcc9077c0048770338d3d 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x1920.png?h=9f388a23ac961cbd92064e3cb7eeb0e5 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x2560.png?h=0fe17c69d650b292613ea703335d67d9 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/35c05317-3342-4891-b666-fcc5067fedc7_carw_202x158x5120.png?h=0fa609ed1d8ba0d6c0857749c220df6b 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Crailsheim Wasserturm</div>
+                        <div class="date">2023</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/sailor-16t-sp-radio" data-context="pages" data-identity="id:p660ed135e4a154be1446b6dc2c93e5f7213350cd2a7cb6f72ee4f" data-hover-hint="galleryPageCover" data-hover-hint-id="p660ed135e4a154be1446b6dc2c93e5f7213350cd2a7cb6f72ee4f">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x32.png?h=c57b86bd2e1dea4e814983e622929b38"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_car_202x158.png?h=ccc1a82403f9a3bb5d6fc0d24d3a6dba"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x640.png?h=6d7b432e157aa458b8e5bdca91daf347 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x1280.png?h=fe92e156b1279cb367cacb7412439e9e 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x1366.png?h=b1ac3b0c5befe466c2aae7ae988b0f9d 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x1920.png?h=363509a797a86f82272e590e8ce7bb57 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x2560.png?h=b0e4db1d34dceacc0360b924e3299266 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/44edade9-51b8-478e-ae3f-1cac7094ae98_carw_202x158x5120.png?h=c30bb166559179f899a8e28b8bea222a 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Sailor 16T S.P Radio</div>
+                        <div class="date">2023</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/lavafall" data-context="pages" data-identity="id:p63e55c14e2f777e89155c4a8baf6aa1a5660dfb0a6b6c1aef618e" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55c14e2f777e89155c4a8baf6aa1a5660dfb0a6b6c1aef618e">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x32.png?h=7e9eccd16c3a95e3d3a0159cb7063ed5"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1920.png?h=27c74b401570f53c3ff553cea338ca01"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x640.png?h=3d788c6d5f09b200fd7258e679d2db3b 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1280.png?h=4cedf15c11e614334c3d4d7f2de472ba 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1366.png?h=95993f0850a851e5fb788e6302796d59 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1920.png?h=27c74b401570f53c3ff553cea338ca01 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1920.png?h=27c74b401570f53c3ff553cea338ca01 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/d23c3046-f2ce-4b1a-b75e-f0f59fe4a916_rwc_0x209x1920x1501x1920.png?h=27c74b401570f53c3ff553cea338ca01 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Lavafall</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/heritage-square-museum" data-context="pages" data-identity="id:p63e55cbc33ed85dfca9816326f6304657bf7a40fadeca871e9e53" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55cbc33ed85dfca9816326f6304657bf7a40fadeca871e9e53">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x32.png?h=a71345bc5f3a06ba8de0afe7f404378c"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_car_202x158.png?h=7bde901ead850c5a08475eec1aad348a"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x640.png?h=0f38a883ecc1ef0221eb2dd0dc43cc3b 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x1280.png?h=da79f96b179e244a37be4b766c9a0a5b 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x1366.png?h=d904c569136c3d9dcb7d9c1b5e6342ed 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x1920.png?h=75c2559ba3c18b4b9e96a474ff1ce64e 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x2560.png?h=75a3c3ea6b61b5461bc184ebe86fee0b 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/436721df-c445-4c20-ba17-de9b39f74ce1_carw_202x158x5120.png?h=a71063efc2475b82d7976d60eb2ca534 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Heritage Square Museum</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/1976-hitachi-portable-vtr-for-sony-1-type-c" data-context="pages" data-identity="id:p63e55da6dd6471926e1aa101478d64975f58c718eec235d64e9b1" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55da6dd6471926e1aa101478d64975f58c718eec235d64e9b1">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x32.png?h=829a58422a50a881eb38ab4f99d970ea"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_car_202x158.png?h=5b7fa6dc5aff6ff9ab59281dfc6f40d6"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x640.png?h=4b63988365d0eb9fcf7d71194452a34e 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x1280.png?h=521366ebaaeb8c5c67696c5a85f00146 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x1366.png?h=e62feec93c5c567dc78d310eb7e17397 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x1920.png?h=b67fc9e004d2b9be6bb31314ccfc2640 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x2560.png?h=b3fa2c016fca192f3289b116d593333a 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/e54fba3b-8979-4641-9d5c-8806d347156a_carw_202x158x5120.png?h=54a3229832cbe49a86ca005f786f2211 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">1976 Hitachi portable VTR for Sony 1&quot; type C</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/brick-portal" data-context="pages" data-identity="id:p63e55e24e4d0da01c5eac13ef8c32c2f8cb367728861e512f6ca5" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55e24e4d0da01c5eac13ef8c32c2f8cb367728861e512f6ca5">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x32.png?h=2f66aff8da149d8e5ce36dc185d64d97"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_car_202x158.png?h=1b247d52829cfcf0af011987e78a22ef"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x640.png?h=3dcee8ac883544023c42f9ff499194e3 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x1280.png?h=78776ad32d9a945a96b8c7d5f7134f32 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x1366.png?h=57ac3db5a4f729a2dd756dba2089ce64 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x1920.png?h=8aa12553b8677e605b5fe2e21d96d711 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x2560.png?h=402231c3a7c0ab2a48d0bcde13272b6f 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/a203747b-9662-4fdd-91d1-9d3c9952588e_carw_202x158x5120.png?h=0f44b832855ccd9e1c0bab376df87abf 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Brick Portals</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/1993-toyota-townace" data-context="pages" data-identity="id:p63e55e7d71a3b5766ce653a72def78dcf2d4ed84a8d957aec75bb" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55e7d71a3b5766ce653a72def78dcf2d4ed84a8d957aec75bb">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x32.png?h=e69404d26ef903f8b39e791925ad7ab4"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_car_202x158.png?h=37f55af8da172be53a40d22e1d275184"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x640.png?h=926cf20447205e84447f47b191af79ba 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x1280.png?h=48b6fab45d237d3024e95b04388ad3f9 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x1366.png?h=0d1957981bfed7d41d2b97152309a3c3 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x1920.png?h=9d280602f39c3182c10d35727532ac3c 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x2560.png?h=6135ae9f74baa7078cc0db870e5800b4 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/dad8423c-584e-4332-806f-1f3c41c54fef_carw_202x158x5120.png?h=bb358c6c299ee58daa3efb001a435070 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">1993 Toyota TownAce</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/riverfall" data-context="pages" data-identity="id:p63e55f8cc86ca45117e03879ad0ae361a66059aee717aefa1c174" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55f8cc86ca45117e03879ad0ae361a66059aee717aefa1c174">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x32.png?h=5e7b3e012b7e96f6a7fbd0e68c20ad54"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_car_202x158.png?h=b132d20aa0be5feffc0903d83e0907bd"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x640.png?h=56577dd511b63a3a3ddd291f1ffcb38f 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x1280.png?h=02980e9371a808e2f1040727b4f9a89b 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x1366.png?h=68124726c26d197802d5fdb14d15cdf7 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x1920.png?h=b39a30ee2105c0393d1d8bc7e8b5d33a 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x2560.png?h=8ad02ad52b95cd75408b192185c8940a 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca38f935-4113-4fbb-8688-3a170ca69663_carw_202x158x5120.png?h=b8a60e42ffafdf8fe42e814bab1c8b27 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Riverfall</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/sainte-chapelle" data-context="pages" data-identity="id:p63e560491e9b6bd4d65d0dcaeef5f8f6af219a2c0b127c95b6bf0" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e560491e9b6bd4d65d0dcaeef5f8f6af219a2c0b127c95b6bf0">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x32.png?h=4332b14039978c49c1740d72775d8930"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_car_202x158.png?h=939070af206a73ddf3bb7821e85fbe7a"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x640.png?h=f3d2f6c9240b7bbd410801dcc18042a8 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x1280.png?h=446b0d32d7256000e376a1edfe9a7cda 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x1366.png?h=c829eb3111062d8eac588d7a7fcd3489 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x1920.png?h=bfd0cb46c38ac37c59311fa61e8d4a9b 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x2560.png?h=562f548efa079204f743481c3d45fca1 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38f8c41e-dc41-40c1-a966-1b5906fddfce_carw_202x158x5120.png?h=07d30157d65f7a3efe45448387483eaa 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Sainte-Chapelle</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/reading-berkshire" data-context="pages" data-identity="id:p63e5645e3e4dc5752712ecc5ee89e9a6fcff2e6fc3b0f00d60c23" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5645e3e4dc5752712ecc5ee89e9a6fcff2e6fc3b0f00d60c23">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x32.png?h=6cd8c4371cd264f1509ff7d80b19e673"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_car_202x158.png?h=5a60a4f8fc4071c4d0470f9b85d5fd5e"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x640.png?h=7a97c173c24bc1b40522d31284f78799 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x1280.png?h=e48670ece170159c07e9540f43f8ac14 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x1366.png?h=100db1c44381262b94916435fc31e9cb 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x1920.png?h=33325990dd1dfd5336ebfced8a57167c 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x2560.png?h=85befe958954bd371695f554c0f100e4 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/7fb20d16-032f-4ef6-bab0-974d724ae846_carw_202x158x5120.png?h=8574d1e9b3a05dadd99d858423748319 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Reading, Berkshire</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/berkeley-ca" data-context="pages" data-identity="id:p63e564c7a4b0c9876bf3e7ca01a9cc9f63a27e3af15c003e4b2df" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e564c7a4b0c9876bf3e7ca01a9cc9f63a27e3af15c003e4b2df">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x32.png?h=2a38e6b220d1ee9cdd64f470832e17c0"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x3840.png?h=c5c62df088db38109f708f965093d396"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x640.png?h=3417c6dc0563ec365a6bc0b0465264ff 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x1280.png?h=0194ad9f7acf315a4da34bd06e688c05 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x1366.png?h=36fbc83c3a32aab82b447a109e16dc30 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x1920.png?h=1dd4815e31c0a278bdebc9ace0de5ad9 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x2560.png?h=45583d13c848eaa08ecdfe602cf52ebc 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c982afa8-e916-4dbb-8402-01be5b210ed5_rwc_0x837x3840x3002x3840.png?h=c5c62df088db38109f708f965093d396 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Berkeley, CA</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/serpent-portal" data-context="pages" data-identity="id:p63e5a8e3b98af6f8edde14aa24f0b34c643c98ecfeb4dd9303602" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5a8e3b98af6f8edde14aa24f0b34c643c98ecfeb4dd9303602">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x32.png?h=63691d32f35c60878ed5b81383894866"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_car_202x158.png?h=53df34673c68c84e528230ebb565bb9d"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x640.png?h=5d54803b54c249295fba75bb53a3ec78 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x1280.png?h=b6f80292def36268857ed27ee17a5534 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x1366.png?h=925974786d03370cacb39df9fa58117a 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x1920.png?h=c4db990eb7a3e9837aaadf58d83dd0eb 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x2560.png?h=92645cdd9f22552b239ed58424a548d9 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/94f96bab-be4f-48fb-a062-6003b6243064_carw_202x158x5120.png?h=b2d0789e9fb5e8e3b5d73f636dc3ab8f 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Serpent Portal</div>
+                        <div class="date">2022</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/portland-or" data-context="pages" data-identity="id:p63e568076e04ce6e34aff1caeae13dd638f6f5a39c2506bbee633" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e568076e04ce6e34aff1caeae13dd638f6f5a39c2506bbee633">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x32.png?h=a1cd2bc4b38e4bc671588c9f8814b6e8"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_car_202x158.png?h=fa5016b0e22e9d0b8df47446251dcc73"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x640.png?h=c5a13d5cfbf22cad94ae731e8919bae7 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x1280.png?h=cc233ee130f99635b9524196cc061fc9 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x1366.png?h=c221bf95e4d36df52ba71ae58c012969 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x1920.png?h=6942667a5e634ba07844fce92db9d76d 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x2560.png?h=2dc70b3d6d0e5029ec244a06695e180b 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/842a950a-7e91-4bf7-80b6-cedc8a65eb26_carw_202x158x5120.png?h=bb99aeb7deb593d541d1b9b4246078c5 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Portland, OR</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/forest-cave-entrance" data-context="pages" data-identity="id:p63e567c27a5c9ad0fd6681ef457ea367db62ddabc4249533660b3" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e567c27a5c9ad0fd6681ef457ea367db62ddabc4249533660b3">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x32.png?h=f675d83989146cbd2f4198ebde71bfeb"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_car_202x158.png?h=65ce662fda02dd4e62250f4cad547ff5"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x640.png?h=9e63ec7b14bad14194b7fa59c2bcdb87 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x1280.png?h=7abac5bff1b6783147c542603623a91f 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x1366.png?h=da897dc3e08ac35aaefdd9ba14defb58 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x1920.png?h=671fd3ef71780d3849a946f0488216e9 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x2560.png?h=cda1990f888b85a66eb7ab8f043532a2 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/c075128d-d52f-417e-8d1b-b48d680c2a60_carw_202x158x5120.png?h=c302eb6e69392cdacc5d99f5273d87c2 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Forest Cave Entrance</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/witte-huis" data-context="pages" data-identity="id:p63e5659664779b9f3518c8cd392e6ce0446b9f5f315b73ae56358" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5659664779b9f3518c8cd392e6ce0446b9f5f315b73ae56358">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x32.png?h=37501197b96e6f80c22c5321c524c070"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x3840.png?h=d83f782b20b960cefc93243659b9da89"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x640.png?h=d39fe9eb35b1865da661abc45fdaf6a4 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x1280.png?h=90bac5848d1a3a1f64076c765d0be050 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x1366.png?h=3bc15b0a1e471f486946b274b5b027c0 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x1920.png?h=61dddd59dcdddf2cdcb25f785187766a 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x2560.png?h=f30e8a8729bf30425483c13935b0a58a 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ca3302e6-88b0-473b-ad9d-607cb2067600_rwc_0x418x3840x3002x3840.png?h=d83f782b20b960cefc93243659b9da89 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Witte Huis</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/crop-circle" data-context="pages" data-identity="id:p63e5648b34953b627535ff3deeebf4bf12d11ec4034c4f12fd93f" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5648b34953b627535ff3deeebf4bf12d11ec4034c4f12fd93f">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x32.png?h=39a52eb6190bd3493979a1747dd7fa5e"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_car_202x158.png?h=f9547c00bbe8f5f4c9f143ba8bf42915"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x640.png?h=011d2af4c68dc1b368104879fc0088c3 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x1280.png?h=e3e3b162843399eac031b99a0e51471c 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x1366.png?h=a9c7c71b1468d5e7643912aff4818058 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x1920.png?h=1241be9e53126d2703f9689d5ccbe442 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x2560.png?h=e08a051979c8739cc2fc7416bd6c38e3 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/3539d6a2-97dc-43e7-a5f5-30d2dc09ca49_carw_202x158x5120.png?h=1351a0bff9db8a172549599901b56c7f 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Crop Circles</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/vw-bug" data-context="pages" data-identity="id:p63e55a0fadecc685616b062d0e03278611ae7911b7bb7e4595b1c" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e55a0fadecc685616b062d0e03278611ae7911b7bb7e4595b1c">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x32.png?h=8ce6d3662c6ba4035903209160177706"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_car_202x158.png?h=bb7a7a0dfb927b18538bb3e382877f87"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x640.png?h=53542a6661355c2108d5c4da8ac7f64c 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x1280.png?h=099919c170be04a2d52ca22bbc710269 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x1366.png?h=baa9beb066139edb14b7bee83934a327 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x1920.png?h=c8c699b13bba76ff24f3425d3e358f73 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x2560.png?h=f43261be4b8d62e9ae42a8e1bf986d64 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/74d07513-844b-4bb1-9eda-d69ffa15b987_carw_202x158x5120.png?h=ad6bfa339184ccf284d931862fc64fe1 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">VW Bug</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/lookout" data-context="pages" data-identity="id:p63e568249535a1ccad02cd36eaae4bc17541db2e10d2592db25c5" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e568249535a1ccad02cd36eaae4bc17541db2e10d2592db25c5">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x32.png?h=d1203a093cfeaae8ab638d866ed93dd6"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_car_202x158.png?h=00f4391fd4639a134151c9ca2acaa3bc"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x640.png?h=78b196d3cb00405494259d598c2a3079 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x1280.png?h=235a783c349a06d262319b69c7872771 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x1366.png?h=ea0c3a618904beb124e8475982eb99e3 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x1920.png?h=f7361074ac262506fb5e25c2ed4799d8 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x2560.png?h=8e58d76824bb12504eee6d85de2bd587 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/f20f6e83-8bc6-4123-8a1b-4c6ba92df553_carw_202x158x5120.png?h=ecd49a5a8e9b5e8b0b75f5139fa792d6 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Lookout</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/conservatory" data-context="pages" data-identity="id:p63e5688756e16ad3ffaa43147408dfe47d231f2bf62d8e74d033c" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5688756e16ad3ffaa43147408dfe47d231f2bf62d8e74d033c">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x32.png?h=25c229dc13f4810631c6df573c3b0fdf"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_car_202x158.png?h=9e47a6cf830e028bb082eb1ef7ff01c8"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x640.png?h=e14152e769bf9f275a7ec4ee94631e01 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x1280.png?h=06378be8f3dcb166ee70e6586a5236c2 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x1366.png?h=69e6c4ad7bac178f88fe5b146b4e6b13 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x1920.png?h=732815a007a2b3d680fab5e43aabba41 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x2560.png?h=ce0077675f6d34586561548a2b82f365 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ffa56430-145b-4d4b-90e2-4eca7790c80f_carw_202x158x5120.png?h=cef124f8aa56ce9565218fef12b53344 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Conservatory</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/cape-canaveral" data-context="pages" data-identity="id:p63e5aa522ce818e7c009e6511e3fca4784d57fdef66efab55d516" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5aa522ce818e7c009e6511e3fca4784d57fdef66efab55d516">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x32.png?h=63b05036334a14f1404bf6dcb320f18a"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_car_202x158.png?h=58b52fb1695006d345c4e9616ba0dee4"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x640.png?h=3902156bab91618934b630e955307577 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x1280.png?h=65b0de33fe53de81b7433acaa2ffc054 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x1366.png?h=f0afec0da099a126cc5dd7db16fa1038 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x1920.png?h=a0801acb54cf6752761ce1bf5f4d0efb 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x2560.png?h=8278e4c0199532fca9655c45a1452bb4 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/ed8dce3f-efd0-41b3-83de-18362aba6d8f_carw_202x158x5120.png?h=0b191b30ddc0287afe7f484b05e60345 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Cape Canaveral</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/mausoleums" data-context="pages" data-identity="id:p63e5a9cac0b0a93bc75e2ba67a31bb9a1470207c71af0c2f17397" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5a9cac0b0a93bc75e2ba67a31bb9a1470207c71af0c2f17397">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x32.png?h=9f72e7dace34ab9ebeecfa2788f8f0d0"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_car_202x158.png?h=c4ec1066b38422df441570cd031b480c"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x640.png?h=cebbbaf8224a410c17ebdb537a8b0a95 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x1280.png?h=cf2ba12d79105a3a1cc59789661d6549 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x1366.png?h=6c11813926fcdaba04269104787d09ab 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x1920.png?h=815edb5bae4a6cbe98e02d9c21a1c8cb 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x2560.png?h=d435829e414c951bd0c7cfa69f7e457b 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/38c7851d-5ac5-4271-978b-e220d43d5e35_carw_202x158x5120.png?h=bc098e05ba6884722561d33b3c0775af 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Mausoleums</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="project-cover js-project-cover-touch hold-space" href="/covent-garden" data-context="pages" data-identity="id:p63e5a9352a61c1ad3858821b1e3fd963cbe6ba1e185d5e5d2cb2c" data-hover-hint="galleryPageCover" data-hover-hint-id="p63e5a9352a61c1ad3858821b1e3fd963cbe6ba1e185d5e5d2cb2c">
+              <div class="cover-content-container">
+                <div class="cover-image-wrap">
+                  <div class="cover-image">
+                      <div class="cover cover-normal">
+
+            <img
+              class="cover__img js-lazy"
+              src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x32.png?h=ea33c2d8e2da44b89cb21ead7a097201"
+              data-src="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_car_202x158.png?h=8e0b5c0216c99cd0eb38a2b07bb6157f"
+              data-srcset="https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x640.png?h=b6601b67dc09133e87eef9adbc30f29f 640w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x1280.png?h=17337dfb157c4b26d6862ed35bf53da0 1280w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x1366.png?h=97b75c9105a691942fb4d59915ef731b 1366w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x1920.png?h=09917a0ed2a34c984bd88e44bb70d1ef 1920w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x2560.png?h=dcca2cf7bad410681ca1d6c4fb39b668 2560w, https://cdn.myportfolio.com/69405a9e-cbee-4ea8-b7ca-881a9ec5dedf/19938456-b4f0-4293-ac3b-1e70ed40929f_carw_202x158x5120.png?h=0173b8ce0f24e4a5cf98419a96e7912d 5120w"
+              data-sizes="(max-width: 540px) 100vw, (max-width: 768px) 50vw, calc(1500px / 4)"
+            >
+                                </div>
+                  </div>
+                </div>
+                <div class="details-wrap">
+                  <div class="details">
+                    <div class="details-inner">
+                        <div class="title preserve-whitespace">Covent Garden</div>
+                        <div class="date">2021</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </section>
+              <footer class="site-footer" data-hover-hint="footer">
+                <div class="footer-text">
+                  Powered by <a href="http://portfolio.adobe.com" target="_blank">Adobe Portfolio</a>
+                </div>
+              </footer>
+        </main>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript">
+  // fix for Safari's back/forward cache
+  window.onpageshow = function(e) {
+    if (e.persisted) { window.location.reload(); }
+  };
+</script>
+  <script type="text/javascript">var __config__ = {"page_id":"p63e559c93755a098f45d8b9ff00a42d691d0250f2c24dcccdf2d3","theme":{"name":"geometric"},"pageTransition":true,"linkTransition":true,"disableDownload":false,"localizedValidationMessages":{"required":"This field is required","Email":"This field must be a valid email address"},"lightbox":{"enabled":true,"color":{"opacity":0.94,"hex":"#fff"}},"cookie_banner":{"enabled":false},"googleAnalytics":{"trackingCode":"G-29EPTE4N8V","anonymization":false}};</script>
+  <script type="text/javascript" src="/site/translations?cb=66e5f68ba84984f4e3765ab4f818d478913484b9"></script>
+  <script type="text/javascript" src="/dist/js/main.js?cb=66e5f68ba84984f4e3765ab4f818d478913484b9"></script>
+</html>
