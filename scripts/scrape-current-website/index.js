@@ -4,6 +4,7 @@ import { mkdir, readdir, readFile, writeFile } from 'fs/promises';
 import fetch from "node-fetch";
 import { JSDOM } from 'jsdom';
 import path from 'path';
+import { existsSync } from 'fs';
 
 const ART_DIR = './content/art/'
 const PROJECTS_DIR = './content/projects/'
@@ -116,8 +117,6 @@ async function getCurrentArtCount() {
 //   return imageSrcs;
 // }
 function getLargestSizeFromSrcset(srcset) {
-  console.log("srcset: ")
-  console.log(srcset)
   const chunks = srcset.split(', ');
   const lastChunk = chunks[chunks.length - 1];
 
@@ -126,10 +125,13 @@ function getLargestSizeFromSrcset(srcset) {
   return url;
 }
 
+const WEIGHT_INCREMENT = 10;
+
 async function createArtFilesFromHTML(node) {
   const relativeHref = node.getAttribute('href')
-  const title = node.querySelector('.title').textContent;
-  console.log(`creating art file for: ${title}`);
+  const title = node.querySelector('.title').textContent
+    .replace('\"', '\\"')
+    .replace('"', '\"');
   const date = node.querySelector('.date').textContent;
 
   const currentArtCount = await getCurrentArtCount();
@@ -141,6 +143,10 @@ async function createArtFilesFromHTML(node) {
   // TODO 
   // - create base directory (if it doesn't ext)
   const currentArtworkBaseDir = path.join(ART_DIR, slug);
+  if (existsSync(currentArtworkBaseDir)) {
+    return;
+  }
+
   await mkdir(currentArtworkBaseDir, { recursive: true });
 
   // - create images directory
@@ -165,11 +171,15 @@ async function createArtFilesFromHTML(node) {
   const now = new Date(Date.now()).toJSON();
   const indexContent = `+++
 date = '${now}'
-draft = true
+draft = false
 title = "${title}"
+weight = ${weight}
 [params]
   mainImage = "${path.join('images', thumbnailFilename)}"
-+++`;
+  year = "${date}"
++++
+
+`;
   const indexPath = path.join(currentArtworkBaseDir, 'index.md');
   await writeFile(indexPath, indexContent);
 }
@@ -181,11 +191,11 @@ async function createArtFilesFromCurrentSite() {
   const projectCovers = dom.window.document.querySelectorAll('.project-cover');
 
   console.log(`creating ${projectCovers.length} art directories`);
-  await createArtFilesFromHTML(projectCovers[0]);
-  let idx = 0;
+  let idx = 1;
   for (const projectCover of projectCovers) {
     console.log(`art ${idx++}/${projectCovers.length}`);
-    await createArtFilesFromHTML(projectCover)
+    await createArtFilesFromHTML(projectCover);
+    console.log('done.')
   }
 }
 

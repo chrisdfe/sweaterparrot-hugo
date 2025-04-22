@@ -3,15 +3,16 @@
     holme
 
   {{ $projects := where site.RegularPages "Section" "projects" }}
-  <h1>projects</h1>
+  <h1>projects {{ $projects | len }}</h1>
+
   {{ range $projects }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
   {{ end }}
 
-  {{ $artworks := where site.RegularPages "Section" "artworks" }}
+  {{ $artworks := where site.RegularPages "Section" "art" }}
 
-  <h1>artworks</h1>
+  <h1>artworks {{ $artworks | len }}</h1>
   {{ range $artworks }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
     {{ .Summary }}
