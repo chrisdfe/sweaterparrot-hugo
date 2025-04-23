@@ -1,0 +1,57 @@
+:root {
+  --body-background-color: #282923;
+  --body-text-color: #fff;
+  --body-font-family: "Space Mono", monospace;
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+  font-family: var(--body-font-family);
+  font-weight: 400;
+}
+
+/* Header */
+.header {
+  display: flex;
+}
+
+.header__logo {
+  padding: 1rem;
+}
+
+.header nav {
+  margin-left: auto;
+  padding: 0 0.8rem 0 0;
+}
+
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header li {
+  display: inline-block;
+  padding: 1rem 0.2rem;
+}
+
+.header a {
+  color: var(--body-text-color);
+  text-decoration: none;
+  padding: 1rem 0.2rem;
+}
+
+/* Artworks */
+.artwork-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.artwork {
+  width: calc(100% / 3);
+}
+
+.artwork a {
+  color: var(--body-text-color);
+}

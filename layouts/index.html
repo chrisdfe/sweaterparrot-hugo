@@ -1,9 +1,8 @@
 {{ define "main" }}
   {{ .Content }}
-    holme
 
   {{ $projects := where site.RegularPages "Section" "projects" }}
-  <h1>projects {{ $projects | len }}</h1>
+  <h1>projects</h1>
 
   {{ range $projects }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
@@ -12,12 +11,21 @@
 
   {{ $artworks := where site.RegularPages "Section" "art" }}
 
-  <h1>artworks {{ $artworks | len }}</h1>
-  {{ range $artworks }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <h1>artworks</h1>
+  <div class="artwork-list">
+    {{ range $artworks }}
+      {{ $mainImageUrl := printf "%s/%s" .Permalink .Params.MainImage  }}
+      {{- $mainImage := .Resources.Get .Params.MainImage -}}
 
-  asdfasdfasd
-
+      <div class="artwork">
+        <a href="{{ .RelPermalink }}">
+          <img
+            class="artwork__image"
+            src="{{ ($mainImage.Resize "300x").RelPermalink }}"
+          />
+          <h3 class="artwork__title">{{ .LinkTitle }}</h3>
+        </a>
+      </div>
+    {{ end }}
+  </div>
 {{ end }}
