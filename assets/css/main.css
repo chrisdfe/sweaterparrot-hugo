@@ -49,6 +49,8 @@ main {
 
 /* Header */
 .header {
+  --header-nav-padding-vertical: 1.5rem;
+  --header-nav-padding-horizontal: 0.25rem;
   font-family: var(--header-font-family);
   font-size: 18px;
 }
@@ -59,7 +61,7 @@ main {
 
 .header nav {
   margin-left: auto;
-  padding: 0 0.8rem 0 0;
+  margin-right: calc(var(--header-nav-padding-horizontal) * -1);
 }
 
 .header ul {
@@ -70,13 +72,15 @@ main {
 
 .header li {
   display: inline-block;
-  padding: 1rem 0.2rem;
+  padding: var(--header-nav-padding-vertical)
+    var(--header-nav-padding-horizontal);
 }
 
 .header a {
   color: #888;
   text-decoration: none;
-  padding: 1rem 0.2rem;
+  padding: var(--header-nav-padding-vertical)
+    var(--header-nav-padding-horizontal);
 }
 
 .header a:hover,
@@ -99,8 +103,12 @@ main {
 
 /* grid */
 .container {
-  display: flex;
-  flex-wrap: wrap;
   max-width: 900px;
   margin: 0 auto;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

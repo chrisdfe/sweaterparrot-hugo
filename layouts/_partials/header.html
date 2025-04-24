@@ -1,6 +1,8 @@
 <header class="header">
   <div class="container">
-  <a class="header__logo" href="/">{{ site.Title }}</a>
-  {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    <div class="flex-row">
+      <a class="header__logo" href="/">{{ site.Title }}</a>
+      {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+    </div>
   </div>
 </header>
