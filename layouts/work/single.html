@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  <div class="container">
+    <img class="artwork-page__image" src="{{ .Resources.Get .Params.MainImage }}">
+  </div>
+
+  {{.Content}}
+{{ end }}

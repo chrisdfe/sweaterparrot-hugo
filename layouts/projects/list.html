@@ -1,0 +1,22 @@
+{{ define "main" }}
+  {{ $projects := where .Site.RegularPages "Section" "projects" }}
+
+  <div class="container">
+  {{ range $projects }}
+    <div class="project-tile">
+      <a class="project-tile__link" href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </div>
+  {{ end }}
+  </div>
+
+  <style>
+    .project-tile {
+      width: 100%;
+    }
+    .project-tile__link {
+      color: var(--body-text-color);
+    }
+  </style>
+{{ end }}

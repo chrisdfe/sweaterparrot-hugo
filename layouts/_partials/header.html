@@ -1,4 +1,6 @@
 <header class="header">
-  <div class="header__logo">{{ site.Title }}</div>
+  <div class="container">
+  <a class="header__logo" href="/">{{ site.Title }}</a>
   {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+  </div>
 </header>
