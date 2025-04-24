@@ -1,14 +1,45 @@
 :root {
+  --font-crimson-pro: "Crimson Pro", serif;
+  --font-azeret-mono: "Azeret Mono", monospace;
+
   --body-background-color: #282923;
   --body-text-color: #fff;
-  --body-font-family: "Space Mono", monospace;
+  --body-link-color: #fff;
+  --header-font-family: var(--font-crimson-pro);
+  --body-font-family: var(--font-azeret-mono);
 }
 
 body {
   background-color: var(--body-background-color);
   color: var(--body-text-color);
   font-family: var(--body-font-family);
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+a {
+  color: var(--body-link-color);
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+
+p {
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--header-font-family);
+  font-weight: 700;
+  margin-bottom: 1em;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 /* Main */
@@ -17,6 +48,11 @@ main {
 }
 
 /* Header */
+.header {
+  font-family: var(--header-font-family);
+  font-size: 18px;
+}
+
 .header__logo {
   padding: 1rem;
 }
@@ -38,13 +74,14 @@ main {
 }
 
 .header a {
-  color: var(--body-text-color);
+  color: #888;
   text-decoration: none;
   padding: 1rem 0.2rem;
 }
 
+.header a:hover,
 .header a.active {
-  text-decoration: underline;
+  color: var(--body-text-color);
 }
 
 /* footer */
@@ -56,7 +93,7 @@ main {
 
 .footer {
   margin-top: auto;
-  font-size: 14px;
+  font-size: 12px;
   padding: 3rem 0;
 }
 
@@ -66,31 +103,4 @@ main {
   flex-wrap: wrap;
   max-width: 900px;
   margin: 0 auto;
-}
-
-/* artwork-tiles */
-.artwork-tile {
-  width: calc(100% / 3);
-}
-
-.artwork-tile__inner {
-  padding: 1rem;
-}
-
-.artwork-tile__link {
-  color: var(--body-text-color);
-  text-decoration: none;
-}
-
-.artwork-tile__image {
-  max-width: 100%;
-}
-
-.artwork-tile__title {
-  margin: 0;
-}
-
-/* artwork page */
-.artwork-page__image {
-  max-width: 100%;
 }

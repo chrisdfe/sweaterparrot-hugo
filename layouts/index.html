@@ -1,26 +1,5 @@
 {{ define "main" }}
   {{ .Content }}
 
-  {{ $works := where site.RegularPages "Section" "work" }}
-
-  {{ with $works }}
-  <div class="container">
-    {{ range $works }}
-      {{ $mainImageUrl := printf "%s/%s" .Permalink .Params.MainImage  }}
-      {{ $mainImage := .Resources.Get .Params.MainImage }}
-
-      <div class="artwork-tile">
-        <div class="artwork-tile__inner">
-          <a class="artwork-tile__link" href="{{ .RelPermalink }}">
-            <img
-              class="artwork-tile__image"
-              src="{{ ($mainImage.Resize "300x").RelPermalink }}"
-            />
-            <h3 class="artwork-tile__title">{{ .LinkTitle }}</h3>
-          </a>
-        </div>
-      </div>
-    {{ end }}
-  </div>
-  {{ end }}
+  insert image here
 {{ end }}
