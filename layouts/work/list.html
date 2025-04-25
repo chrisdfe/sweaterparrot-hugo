@@ -6,16 +6,17 @@
     <div class="container-outer">
       <div class="container">
         <div class="flex-row">
-          {{ range $works }}
+          {{ range $works.Reverse }}
             {{ $mainImageUrl := printf "%s/%s" .Permalink .Params.MainImage  }}
             {{ $mainImage := .Resources.Get .Params.MainImage }}
+            {{ $thumbnail := (($mainImage.Resize "600x").Crop "600x600").RelPermalink }}
 
             <div class="artwork-tile">
               <div class="artwork-tile__inner">
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}">
                   <img
                     class="artwork-tile__image"
-                    src="{{ ($mainImage.Resize "300x").RelPermalink }}"
+                    src="{{ $thumbnail }}"
                   />
                 </a>
               </div>
@@ -30,16 +31,22 @@
 
 {{ define "page-styles" }}
   <style>
+    .artwork-list-page {
+      --tile-padding: 0;
+    }
+
     .artwork-list-page .flex-row {
-      margin: 0 -0.5rem;
+      margin: 0 calc(var(--tile-padding) * -1);
     }
 
     .artwork-tile {
-      width: calc(100% / 3);
+      width: calc(100% / 4);
+      overflow: hidden;
     }
 
     .artwork-tile__inner {
-      padding: 0.5rem;
+      padding: var(--tile-padding);
+      margin-bottom: -4px;
     }
 
     .artwork-tile__link {
@@ -47,8 +54,13 @@
       text-decoration: none;
     }
 
+    .artwork-tile__link:hover .artwork-tile__image {
+      scale: 1.05;
+    }
+
     .artwork-tile__image {
       max-width: 100%;
+      transition: all 0.3s ease-out;
     }
   </style>
 {{ end }}

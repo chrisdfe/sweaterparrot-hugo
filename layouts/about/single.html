@@ -1,20 +1,22 @@
 {{ define "main" }}
 <div class="about-page">
   <div class="container">
-    <div class="about-page__column">
-      <div class="about-page__column-inner">
-        <h1>About</h1>
-        <p>
-          Hello. I'm Christopher Ferris, an artist & illustrator from Seattle, WA. My work is largely about exploring atmosphere, shape, environments, and light.
-          If you want to contact me about a project you can <a href class="email-link">email me</a>, or message me on <a href="">bluesky</a> or <a href="">instagram</a>
-        </p>
+    <div class="flex-row">
+      <div class="about-page__column">
+        <div class="about-page__column-inner">
+          <h1>About</h1>
+          <p>
+            Hello. I'm Christopher Ferris, an artist & illustrator from Seattle, WA. My work is largely about exploring atmosphere, shape, environments, and light.
+            If you want to contact me about a project you can <a href class="email-link">email me</a>, or message me on <a href="">bluesky</a> or <a href="">instagram</a>
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="about-page__column">
-      <div class="about-page__column-inner">
-        {{ $aboutImage := .Resources.Get "images/306.png" }}
-        <img class="about-page__image" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
+      <div class="about-page__column">
+        <div class="about-page__column-inner">
+          {{ $aboutImage := .Resources.Get "images/306.png" }}
+          <img class="about-page__image" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
+        </div>
       </div>
     </div>
   </div>
