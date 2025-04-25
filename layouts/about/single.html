@@ -59,5 +59,20 @@
   .about-page__image {
     max-width: 100%;
   }
+
+  @media (max-device-width: 480px) {
+    .about-page .flex-row {
+      flex-direction: column-reverse;
+    }
+
+    .about-page__column {
+      width: 100%;
+    }  
+
+    .about-page__column-inner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 </style>
 {{ end }}

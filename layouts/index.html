@@ -6,21 +6,24 @@
     <div class="container-outer">
       <div class="container">
         <div class="flex-row">
+          {{ $idx := 0 }}
           {{ range $works.Reverse }}
             {{ $mainImageUrl := printf "%s/%s" .Permalink .Params.MainImage  }}
             {{ $mainImage := .Resources.Get .Params.MainImage }}
-            {{ $thumbnail := (($mainImage.Resize "600x").Crop "600x600").RelPermalink }}
 
             <div class="artwork-tile">
               <div class="artwork-tile__inner">
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}">
+                  {{ $loadingType := cond (gt $idx 4) "lazy" "eager" }}
                   <img
                     class="artwork-tile__image"
-                    src="{{ $thumbnail }}"
+                    src="{{ ($mainImage.Fit "600x600 Center").RelPermalink }}"
+                    loading="{{ $loadingType }}"
                   />
                 </a>
               </div>
             </div>
+            {{ $idx = add $idx 1 }}
           {{ end }}
         </div>
       </div>
@@ -59,8 +62,19 @@
     }
 
     .artwork-tile__image {
-      max-width: 100%;
+      width: 100%;
       transition: all 0.3s ease-out;
+    }
+
+    @media (max-device-width: 480px) {
+      .artwork-list-page .flex-row {
+        flex-direction: column;
+      }
+
+      .artwork-tile {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
     }
   </style>
 {{ end }}
