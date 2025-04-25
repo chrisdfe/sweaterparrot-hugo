@@ -13,11 +13,12 @@
 
             <div class="artwork-tile">
               <div class="artwork-tile__inner">
-                <a class="artwork-tile__link" href="{{ .RelPermalink }}">
+                <a class="artwork-tile__link" href="{{ .RelPermalink }}" aria-label="Link to {{ .Title }}">
                   <img
                     class="artwork-tile__image"
                     src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
-                    data-highres-src="{{ ($mainImage.Fill "600x600 Center").RelPermalink }}"
+                    alt="{{ .Title }}"
+                    srcset="{{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x"
                   />
                 </a>
               </div>
@@ -78,14 +79,3 @@
   </style>
 {{ end }}
 
-{{ define "page-scripts" }}
-<script>
-  document.querySelectorAll(".artwork-tile__image")
-    .forEach((img) => {
-      if (window.devicePixelRatio > 1) {
-        const highresSrc = img.getAttribute('data-highres-src');
-        img.setAttribute('src', highresSrc);
-      }
-    });
-</script>
-{{ end }}
