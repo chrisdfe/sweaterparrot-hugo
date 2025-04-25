@@ -14,12 +14,14 @@
             <div class="artwork-tile">
               <div class="artwork-tile__inner">
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}" aria-label="Link to {{ .Title }}">
-                  <img
-                    class="artwork-tile__image"
-                    src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
-                    alt="{{ .Title }}"
-                    srcset="{{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x"
-                  />
+                  <div class="artwork-tile__image-wrapper">
+                    <img
+                      class="artwork-tile__image"
+                      src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
+                      alt="{{ .Title }}"
+                      srcset="{{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x"
+                    />
+                  </div>
                 </a>
               </div>
             </div>
@@ -61,8 +63,18 @@
       scale: 1.05;
     }
 
+    .artwork-tile__image-wrapper {
+      position: relative;
+      padding-bottom: 100%;
+    }
+
     .artwork-tile__image {
+      position: absolute;
+      top: 0;
+      left: 0;
       width: 100%;
+      height: 100%;
+      object-fit: cover;
       transition: all 0.3s ease-out;
     }
 
