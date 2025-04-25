@@ -17,7 +17,7 @@
                   {{ $loadingType := cond (gt $idx 4) "lazy" "eager" }}
                   <img
                     class="artwork-tile__image"
-                    src="{{ ($mainImage.Fit "600x600 Center").RelPermalink }}"
+                    src="{{ ($mainImage.Fill "600x600 Center").RelPermalink }}"
                     loading="{{ $loadingType }}"
                   />
                 </a>
