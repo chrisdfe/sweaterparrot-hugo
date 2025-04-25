@@ -5,7 +5,7 @@ title = 'sweaterparrot'
 [menus]
   [[menus.main]]
     name = 'Work'
-    pageRef = '/work'
+    pageRef = '/'
     weight = 30
 
   # [[menus.main]]
