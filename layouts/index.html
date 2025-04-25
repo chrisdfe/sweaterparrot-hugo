@@ -16,7 +16,7 @@
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}">
                   <img
                     class="artwork-tile__image"
-                    src="{{ ($mainImage.Fill "600x600 Center").RelPermalink }}"
+                    src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                   />
                 </a>
               </div>
@@ -75,26 +75,4 @@
       }
     }
   </style>
-{{ end }}
-
-{{ define "page-scripts" }}
-<script>
-  (function() {
-    const workTileImages = document.querySelectorAll('.artwork-tile__image');
-
-    const mobileQuery = window.matchMedia("(max-device-width: 480px)");
-
-    const eagerCutoff = 
-      (mobileQuery.matches)
-        ? 1
-        : 12;
-
-    workTileImages.forEach((img, index) => {
-      const isEager = index + 1 <= eagerCutoff;
-      const loadingAttribute = isEager ? 'eager' : 'lazy';
-      console.log("loadingAttribute", loadingAttribute)
-      img.setAttribute('loading', loadingAttribute);
-    });
-  })()
-</script>
 {{ end }}
