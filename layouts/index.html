@@ -19,7 +19,11 @@
                       class="artwork-tile__image"
                       src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                       alt="{{ .Title }}"
-                      srcset="{{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x"
+                      srcset="
+                        {{ ($mainImage.Fill "300x300 Center").RelPermalink }},
+                        {{ ($mainImage.Fill "480x480 Center").RelPermalink }} 1.5x,
+                        {{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x,
+                      "
                     />
                   </div>
                 </a>
