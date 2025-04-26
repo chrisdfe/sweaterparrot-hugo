@@ -16,9 +16,10 @@
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}" aria-label="Link to {{ .Title }}">
                   <div class="artwork-tile__image-wrapper">
                     <img
-                      class="artwork-tile__image"
+                      class="artwork-tile__image fade-in-on-load"
                       src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                       alt="{{ .Title }}"
+                      data-fade-in-delay="{{ mul $idx 100 }}"
                       srcset="
                         {{ ($mainImage.Fill "300x300 Center").RelPermalink }},
                         {{ ($mainImage.Fill "480x480 Center").RelPermalink }} 1.5x,
@@ -79,9 +80,9 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: all 0.3s ease-out;
     }
 
+      
     @media (max-device-width: 480px) {
       .artwork-list-page .flex-row {
         flex-direction: column;
@@ -94,4 +95,3 @@
     }
   </style>
 {{ end }}
-

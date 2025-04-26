@@ -1,16 +1,17 @@
 {{ define "main" }}
   <div class="container">
     <div class="artwork-page__headline">
-    <h1>{{ .Title }}</h1>
-    <p class="artwork-page__meta"><span>Year:</span> {{ .Params.Year }}</p>
+      <h1>{{ .Title }}</h1>
+      <p class="artwork-page__meta"><span>Year:</span> {{ .Params.Year }}</p>
+      <p class="back-link"><a href="/"><span>←</span>back</a></p>
+      </div>
     </div>
-  </div>
 
   {{ $mainImage := .Resources.Get .Params.MainImage }}
   {{ with $mainImage }}
   <div class="container">
     <img
-      class="artwork-page__image"
+      class="artwork-page__image fade-in-on-load"
       src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
       srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
       loading="eager"
@@ -19,6 +20,13 @@
   {{ end }}
 
   {{.Content}}
+
+
+  <div class="container">
+    <div class="bottom-back-link">
+      <p class="back-link"><a href="/"><span>←</span>back</a></p>
+    </div>
+  </div>
 {{ end }}
 
 {{ define "page-styles" }}
@@ -32,12 +40,36 @@
     margin-bottom: 2rem;
   }
 
+
   .artwork-page__headline span {
     color: rgba(255, 255, 255, 0.5);
   }
 
+  .back-link {
+    margin-top: 1rem;
+  }
+
+  .back-link a { 
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+
+  .back-link span {
+    display: inline-block;
+    margin-right: 5px;
+    transition: all 0.2s;
+  }
+
+  .back-link a:hover span {
+    transform: translateX(-5px)
+  }
+ 
   .artwork-page__image {
     max-width: 100%;
+  }
+
+  .bottom-back-link {
+    margin-top: 2rem;
   }
 
   @media (max-device-width: 480px) {
