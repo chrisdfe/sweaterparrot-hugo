@@ -11,7 +11,7 @@
   {{ with $mainImage }}
   <div class="container">
     <img
-      class="artwork-page__image fade-in-on-load"
+      class="artwork-page__image fade-in-on-load is-hidden"
       src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
       srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
       loading="eager"

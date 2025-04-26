@@ -16,7 +16,7 @@
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}" aria-label="Link to {{ .Title }}">
                   <div class="artwork-tile__image-wrapper">
                     <img
-                      class="artwork-tile__image fade-in-on-load"
+                      class="artwork-tile__image fade-in-on-load is-hidden"
                       src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                       alt="{{ .Title }}"
                       data-fade-in-delay="{{ mul $idx 100 }}"
