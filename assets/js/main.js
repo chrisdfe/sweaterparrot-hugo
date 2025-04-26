@@ -1,42 +1,44 @@
 (function () {
-  const images = document.querySelectorAll('.fade-in-on-load');
-  images.forEach((img) => {
-    img.classList.add('is-hidden');
+  const imagesToFadeIn = document.querySelectorAll('.fade-in-on-load');
 
-    if (img.complete) {
-      fadeIn(img);
+  if (!imagesToFadeIn.length) return;
+
+  let currentImageIdx = 0;
+  let currentImage = imagesToFadeIn[currentImageIdx];
+
+  initializeCurrentImage();
+
+  function initializeCurrentImage() {
+    currentImage.classList.add('is-hidden');
+
+    if (currentImage.complete) {
+      fadeInCurrentImage();
     } else {
-      img.addEventListener('load', () => {
-        fadeIn(img);
+      currentImage.addEventListener('load', () => {
+        fadeInCurrentImage();
       });
     }
-  });
+  };
 
-  function fadeIn(img) {
-    const delay = img.getAttribute('data-fade-in-delay');
-    let parsedDelay = 0;
-    if (delay) {
-      const parsed = parseInt(delay);
-      if (!isNaN(parsed)) {
-        parsedDelay = parsed;
+  function fadeInCurrentImage() {
+    fadeIn(currentImage, () => {
+      if (currentImageIdx < imagesToFadeIn.length - 1) {
+        currentImage = imagesToFadeIn[++currentImageIdx];
+        initializeCurrentImage();
       }
-    }
-
-    if (parsedDelay > 0) {
-      setTimeout(() => {
-        animate();
-      }, parsedDelay);
-    } else {
-      animate();
-    }
-
-    function animate() {
-      img.classList.remove('is-hidden')
-      img.classList.add('is-fading-in');
-
-      setTimeout(() => {
-        img.classList.remove('is-fading-in');
-      }, 500);
-    }
+    });
   }
-})()
+
+  function fadeIn(img, next) {
+    img.classList.remove('is-hidden')
+    img.classList.add('is-fading-in');
+
+    setTimeout(() => {
+      next();
+    }, 100);
+
+    setTimeout(() => {
+      img.classList.remove('is-fading-in');
+    }, 500);
+  }
+})();
