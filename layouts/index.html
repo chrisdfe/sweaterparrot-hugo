@@ -19,7 +19,6 @@
                       class="artwork-tile__image fade-in-on-load is-hidden"
                       src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                       alt="{{ .Title }}"
-                      data-fade-in-delay="{{ mul $idx 100 }}"
                       srcset="
                         {{ ($mainImage.Fill "300x300 Center").RelPermalink }},
                         {{ ($mainImage.Fill "480x480 Center").RelPermalink }} 1.5x,
