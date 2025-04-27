@@ -140,6 +140,10 @@ table {
   --body-font-family: var(--font-azeret-mono);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--body-background-color);
   color: var(--body-text-color);
@@ -159,6 +163,10 @@ a {
 p {
   line-height: 2;
   font-size: 15px;
+}
+
+img {
+  max-width: 100%;
 }
 
 h1,

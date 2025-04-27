@@ -15,7 +15,7 @@
       <div class="about-page__column">
         <div class="about-page__column-inner">
           {{ $aboutImage := .Resources.Get "images/306.png" }}
-          <img class="about-page__image" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
+          <img class="about-page__image fade-in-on-load is-hidden" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
         </div>
       </div>
     </div>
@@ -54,10 +54,6 @@
 
   .about-page__column-inner {
     padding: 1rem;
-  }
-
-  .about-page__image {
-    max-width: 100%;
   }
 
   @media (max-device-width: 480px) {

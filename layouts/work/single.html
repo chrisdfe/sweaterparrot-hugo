@@ -11,7 +11,8 @@
   {{ with $mainImage }}
   <div class="container">
     <img
-      class="artwork-page__image fade-in-on-load is-hidden"
+      class="artwork-page__main-image fade-in-on-load is-hidden"
+      alt="'{{ .Title }}' by Christopher Ferris"
       src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
       srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
       loading="eager"
@@ -19,8 +20,46 @@
   </div>
   {{ end }}
 
-  {{.Content}}
+  {{ .Content }}
 
+  {{ range .Page.Params.ContentBlocks }}
+    <div class="container">
+      <div class="content-block content-block--type-{{ .blockType }}">
+        {{ if eq .blockType "ImageRow" }}
+          <div class="flex-row">
+            {{/* Image size in pixels */}}
+            {{ $fullWidth := 1200 }}
+            {{ $imageWidth := div $fullWidth (.images | len)}}
+            {{/* e.g 600x */}}
+            {{ $regularSize := printf "%dx" $imageWidth }}
+            {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
+            {{/* Column width in percentage */}}
+            {{ $columnWidth := div 100 (len .images) }}
+            
+            {{ range .images }}
+              {{ $image := $.Resources.Get .src }}
+              {{ $imageDef := . }}
+
+              {{ $alt := cond .alt .alt (printf "An alternate rendering of '%s'" $.Title) }}
+
+              {{ with $image }}
+                <div class="content-block__column content-block__column--{{ $columnWidth }}">
+                  <img
+                    src="{{ ($image.Resize $regularSize).RelPermalink }}"
+                    alt="{{ $alt }}"
+                    srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"
+                    loading="lazy"
+                  />
+                </div>
+              {{ end }}
+            {{ end }}
+          </div>
+        {{ else if eq .blockType "CaptionText" }}
+          <div>caption</div>
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
 
   <div class="container">
     <div class="bottom-back-link">
@@ -32,14 +71,13 @@
 {{ define "page-styles" }}
 <style>
   .artwork-page__headline {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .artwork-page__headline h1 {
     margin-bottom: 2rem;
   }
-
 
   .artwork-page__headline span {
     color: rgba(255, 255, 255, 0.5);
@@ -64,8 +102,32 @@
     transform: translateX(-5px)
   }
  
-  .artwork-page__image {
-    max-width: 100%;
+  .artwork-page__main-image {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .content-block img {
+    display: block;
+  }
+
+  .content-block .flex-row {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+  
+  .content-block__column {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .content-block__column.content-block__column--50 { max-width: 50%; }
+  .content-block__column.content-block__column--33 { max-width: 33%; }
+  .content-block__column.content-block__column--25 { max-width: 25%; }
+
+  @media (max-device-width: 480px) {
+    .content-block__column.content-block__column--25 { max-width: 50%; }
   }
 
   .bottom-back-link {
