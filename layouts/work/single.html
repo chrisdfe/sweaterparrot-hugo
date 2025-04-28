@@ -12,13 +12,15 @@
   {{ $mainImage := .Resources.Get .Params.MainImage }}
   {{ with $mainImage }}
   <div class="container">
-    <img
-      class="artwork-page__main-image fade-in-on-load is-hidden"
-      alt="'{{ .Title }}' by Christopher Ferris"
-      src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
-      srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
-      loading="eager"
-    />
+    <div class="artwork-page__main-image-wrapper">
+      <img
+        class="artwork-page__main-image fade-in-on-load is-hidden"
+        alt="'{{ .Title }}' by Christopher Ferris"
+        src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
+        srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
+        loading="eager"
+      />
+    </div>
   </div>
   {{ end }}
 
@@ -37,15 +39,23 @@
             {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
             {{/* Column width in percentage */}}
             {{ $columnWidth := div 100 (len .images) }}
+            {{ $alignVertically := .alignVertically }}
             
             {{ range .images }}
               {{ $image := $.Resources.Get .src }}
               {{ $imageDef := . }}
 
-              {{ $alt := cond .alt .alt (printf "An alternate rendering of '%s'" $.Title) }}
+              {{ $alt := "" }}
+              {{ if .alt }}
+                {{ $alt = .alt }}
+              {{ else if .useCloseupAlt }}
+                {{ $alt = printf "A closeup detail of '%s'" $.Title }}
+              {{ else }}
+                {{ $alt = printf "An alternate rendering of '%s'" $.Title }}
+              {{ end }}
 
               {{ with $image }}
-                <div class="content-block__column content-block__column--{{ $columnWidth }}">
+                <div class="content-block__column content-block__column--{{ $columnWidth }} {{ if $alignVertically }}content-block__column--align-vertically{{ end }}">
                   <img
                     src="{{ ($image.Resize $regularSize).RelPermalink }}"
                     alt="{{ $alt }}"
@@ -119,6 +129,11 @@
     transform: translateX(-5px)
   }
  
+  .artwork-page__main-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
   .artwork-page__main-image {
     display: block;
     margin-bottom: 1rem;
@@ -126,10 +141,11 @@
 
   .content-block img {
     display: block;
+    max-height: 100%;
   }
 
   .content-block video {
-      max-width: 100%;
+    max-width: 100%;
   }
 
   .content-block .flex-row {
@@ -143,9 +159,21 @@
     margin-bottom: 1rem;
   }
 
-  .content-block__column.content-block__column--50 { max-width: 50%; }
+  /* .content-block__column.content-block__column--50 { max-width: 50%; }
   .content-block__column.content-block__column--33 { max-width: 33%; }
+  .content-block__column.content-block__column--25 { max-width: 25%; } */
+
+  .content-block__column.content-block__column--50 {
+    max-height: 50%;
+  }
+
+  .content-block__column.content-block__column--33 { max-width: 33%; }
+
   .content-block__column.content-block__column--25 { max-width: 25%; }
+
+  .content-block__column.content-block__column--align-vertically { max-width: 100%; }
+  .content-block__column.content-block__column--25.content-block__column--align-vertically { max-height: 300px; }
+
 
   @media (max-device-width: 480px) {
     .content-block__column.content-block__column--25 { max-width: 50%; }
