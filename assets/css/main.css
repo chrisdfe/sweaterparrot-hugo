@@ -284,6 +284,12 @@ main {
   font-family: var(--label-font-family);
 }
 
+@media (max-device-width: 480px) {
+  .footer {
+    font-size: 12px;
+  }
+}
+
 /* grid */
 .container {
   max-width: 1200px;
