@@ -15,11 +15,16 @@
     {{ $renderMainImage = false }}
   {{ end }}
 
+  {{ $hasContentBlocks := false }}
+  {{ if .Page.Params.ContentBlocks }}
+    {{ $hasContentBlocks = true }}
+  {{ end }}
+
   {{ if eq $renderMainImage true }}
     {{ $mainImage := .Resources.Get .Params.MainImage }}
     {{ with $mainImage }}
       <div class="container">
-        <div class="artwork-page__main-image-wrapper">
+        <div class="artwork-page__main-image-wrapper {{ if not $hasContentBlocks }}artwork-page__main-image-wrapper--no-content-blocks{{ end }}">
           <img
             class="artwork-page__main-image fade-in-on-load is-hidden"
             alt="'{{ .Title }}' by Christopher Ferris"
@@ -165,6 +170,10 @@
     display: block;
     margin-bottom: 1rem;
   }
+
+  .artwork-page__main-image-wrapper.artwork-page__main-image-wrapper--no-content-blocks .artwork-page__main-image {
+    margin-bottom: 0;
+  }
   
   .content-block--type-ImageRow {
     margin-left: -0.5rem;
@@ -222,7 +231,7 @@
       flex-wrap: wrap;
     }
 
-    .content-block__column.content-block__column--25 { max-width: 50%; }
+    .content-block__column.content-block__column--25:not(.content-block__column--mobile-column-width-*) { max-width: 50%; }
 
     .content-block__column--mobile-column-width-100 { max-width: 100%; }
     .content-block__column--mobile-column-width-50 { max-width: 50%; }
