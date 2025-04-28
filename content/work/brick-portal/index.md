@@ -16,4 +16,16 @@ params:
           alt: "Another image in the 'brick portal' series"
         - src: "/images/323-12.png"
           alt: "Another image in the 'brick portal' series"
+    - blockType: "ImageRow"
+      images:
+        - src: "/images/270.png"
+          alt: "Another image in the 'brick portal' series"
+    - blockType: "ImageRow"
+      images:
+        - src: "/images/270-2.png"
+          alt: "Another image in the 'brick portal' series"
+        - src: "/images/270-4.png"
+          alt: "Another image in the 'brick portal' series"
+        - src: "/images/270-3.png"
+          alt: "Another image in the 'brick portal' series"
 ---

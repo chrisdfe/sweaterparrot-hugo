@@ -21,4 +21,6 @@ params:
         - src: "images/260-4.png"
         # - src: "images/260-5-1.png"
         - src: "images/260-7.png"
+    - blockType: "Video"
+      src: "videos/260-animation-final.mp4"
 ---
