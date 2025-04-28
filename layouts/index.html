@@ -11,6 +11,7 @@
             {{ $mainImageUrl := printf "%s/%s" .Permalink .Params.MainImage  }}
             {{ $mainImage := .Resources.Get .Params.MainImage }}
 
+            {{ $loading := cond (lt $idx 4) "eager" "lazy" }}
             <div class="artwork-tile">
               <div class="artwork-tile__inner">
                 <a class="artwork-tile__link" href="{{ .RelPermalink }}" aria-label="Link to {{ .Title }}">
@@ -19,10 +20,11 @@
                       class="artwork-tile__image fade-in-on-load is-hidden"
                       src="{{ ($mainImage.Fill "300x300 Center").RelPermalink }}"
                       alt="{{ .Title }}"
+                      sizes="(max-device-width: 480px) 300px,
+                             600px"
                       srcset="
-                        {{ ($mainImage.Fill "300x300 Center").RelPermalink }},
-                        {{ ($mainImage.Fill "480x480 Center").RelPermalink }} 1.5x,
-                        {{ ($mainImage.Fill "600x600 Center").RelPermalink }} 2x,
+                        {{ ($mainImage.Fill "300x300 Center").RelPermalink }} 300w,
+                        {{ ($mainImage.Fill "600x600 Center").RelPermalink }}
                       "
                     />
                   </div>
@@ -90,7 +92,6 @@
 
       .artwork-tile {
         width: 50%;
-        /* margin: 0.5rem; */
       }
     }
   </style>
