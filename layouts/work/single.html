@@ -2,10 +2,12 @@
   <div class="container">
     <div class="artwork-page__headline">
       <h1>{{ .Title }}</h1>
-      <p class="artwork-page__meta"><span>Year:</span> {{ .Params.Year }}</p>
-      <p class="back-link"><a href="/"><span>←</span>back</a></p>
-      </div>
+      <p class="artwork-page__meta">{{ .Params.Year }}</p>
     </div>
+
+    <!-- <p class="back-link"><a href="/"><span>←</span>back</a></p> -->
+  </div>
+    
 
   {{ $mainImage := .Resources.Get .Params.MainImage }}
   {{ with $mainImage }}
@@ -80,11 +82,18 @@
 <style>
   .artwork-page__headline {
     margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
 
   .artwork-page__headline h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .artwork-page__meta {
+    margin-left: 0.4rem;
+    font-style: italic;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.5);
   }
 
   .artwork-page__headline span {
@@ -92,7 +101,7 @@
   }
 
   .back-link {
-    margin-top: 1rem;
+    margin-bottom: 0;
   }
 
   .back-link a { 
@@ -143,17 +152,18 @@
   }
 
   .bottom-back-link {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   @media (max-device-width: 480px) {
     .artwork-page__headline {
-      margin-top: 1rem;
-      margin-bottom: 2rem;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
     }
 
-    .artwork-page__headline h1 {
-      margin-bottom: 2rem;
+    .artwork-page__meta {
+      margin-bottom: 1rem;
+      margin-left: 0.2rem;
     }
   }
 </style>

@@ -30,7 +30,7 @@
     document.querySelectorAll('.email-link').forEach((link) => {
       link.setAttribute('href', 'mailto:' + email);
     });
-  })()
+  })();
 </script>
 {{ end }}
 
@@ -66,8 +66,11 @@
     }  
 
     .about-page__column-inner {
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0 0 2rem;
+    }
+
+    .about-page__column:first-child .about-page__column-inner {
+      padding-bottom: 0;
     }
   }
 </style>

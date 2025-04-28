@@ -5,3 +5,4 @@ find . \
 xargs -I{} \
 convert \
   -resize "3000x" "{}" "{}"
+echo "done."
