@@ -6,6 +6,7 @@ weight: 20
 params:
   mainImage: "images/forest-cave-entrance-mainimage.png"
   year: "2021"
+  workType: "Image Series"
   contentBlocks:
     - blockType: "ImageRow"
       images:

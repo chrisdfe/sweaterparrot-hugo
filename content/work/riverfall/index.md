@@ -6,6 +6,7 @@ weight: 20
 params:
   mainImage: "images/riverfall-mainimage.png"
   year: "2022"
+  workType: "Image Series"
   contentBlocks:
     - blockType: "ImageRow"
       images:

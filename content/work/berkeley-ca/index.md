@@ -11,6 +11,8 @@ params:
     - blockType: "ImageRow"
       images:
         - src: "images/278-2.png"
-        - src: "images/278-6.png"
+          mobileColumnWidth: 50
         - src: "images/278-3.png"
+          mobileColumnWidth: 50
+        - src: "images/278-6.png"
 ---

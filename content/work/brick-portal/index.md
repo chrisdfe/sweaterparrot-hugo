@@ -4,6 +4,7 @@ title: "Brick Portals"
 weight: 20
 params:
   year: "2022-2024"
+  workType: "Image Series"
   mainImage: "images/brick-portal-mainimage.png"
   contentBlocks:
     - blockType: "ImageRow"
@@ -24,8 +25,8 @@ params:
       images:
         - src: "/images/270-2.png"
           alt: "Another image in the 'brick portal' series"
-        # - src: "/images/270-4.png"
-        #   alt: "Another image in the 'brick portal' series"
+          mobileColumnWidth: 50
         - src: "/images/270-3.png"
           alt: "Another image in the 'brick portal' series"
+          mobileColumnWidth: 50
 ---

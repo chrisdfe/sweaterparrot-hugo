@@ -2,9 +2,10 @@
 date: "2025-04-22T21:18:55.980Z"
 draft: false
 title: "Mausoleums"
-weight: 20
+weight: 9
 params:
   year: "2021-2024"
+  workType: "Image series"
   mainImage: "images/mausoleums-mainimage.png"
   renderMainImage: false
   contentBlocks:

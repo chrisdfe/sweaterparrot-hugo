@@ -10,8 +10,11 @@ params:
     - blockType: "ImageRow"
       images:
         - src: "images/195-3.png"
+          mobileColumnWidth: 33
         - src: "images/195-3-alt-3.png"
+          mobileColumnWidth: 33
         - src: "images/195-3-alt-4.png"
+          mobileColumnWidth: 33
     - blockType: "ImageRow"
       images:
         - src: "images/195-6.png"

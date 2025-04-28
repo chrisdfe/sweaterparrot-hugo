@@ -4,9 +4,15 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
 <!-- google fonts -->
+<!--
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Crimson+Pro:ital@0;1&display=block" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Crimson+Pro:ital@0;1&display=block" rel="stylesheet" /> 
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&family=Crimson+Pro:ital@0;1&family=Hanken+Grotesk&display=block" rel="stylesheet">
 
 {{ partialCached "head/css.html" . }}
 

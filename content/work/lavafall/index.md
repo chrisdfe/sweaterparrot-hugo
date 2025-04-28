@@ -4,6 +4,7 @@ draft: false
 title: "Lavafall"
 weight: 20
 params:
+  workType: "Image & video"
   mainImage: "images/lavafall-mainimage.png"
   year: "2022"
   contentBlocks:

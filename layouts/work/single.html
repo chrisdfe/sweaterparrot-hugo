@@ -2,7 +2,9 @@
   <div class="container">
     <div class="artwork-page__headline">
       <h1>{{ .Title }}</h1>
-      <p class="artwork-page__meta">{{ .Params.Year }}</p>
+      <p class="artwork-page__meta">
+        {{ if .Params.WorkType }}{{ .Params.WorkType }}{{ else }}Image{{ end }}, {{ .Params.Year }}
+      </p>
     </div>
 
     <!-- <p class="back-link"><a href="/"><span>←</span>back</a></p> -->
@@ -32,65 +34,75 @@
 
   {{ .Content }}
 
-  {{ range .Page.Params.ContentBlocks }}
-    <div class="container">
-      <div class="content-block content-block--type-{{ .blockType }}">
-        {{ if eq .blockType "ImageRow" }}
-          <div class="flex-row">
-            {{/* Image size in pixels */}}
-            {{ $fullWidth := 1200 }}
-            {{ $imageWidth := div $fullWidth (.images | len)}}
-            {{/* e.g 600x */}}
-            {{ $regularSize := printf "%dx" $imageWidth }}
-            {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
+  {{ if .Page.Params.ContentBlocks }}
+    {{ $blockCount := len .Page.Params.ContentBlocks }}
+    {{ $finalBlockIdx := sub $blockCount 1 }}
+    {{ $blockIdx := 0 }}
 
-            {{/* Column width in percentage */}}
-            {{ $columnWidth := div 100 (len .images) }}
+    {{ range .Page.Params.ContentBlocks }}
+      {{ $isLastBlock := eq $blockIdx $finalBlockIdx }}
+      {{ $blockIdx = add $blockIdx 1 }}
+      <div class="container">
+        <div class="content-block content-block--type-{{ .blockType }} {{ if $isLastBlock }}content-block--is-last{{ end }}">
+          {{ if eq .blockType "ImageRow" }}
+            <div class="flex-row">
+              {{/* Image size in pixels */}}
+              {{ $fullWidth := 1200 }}
+              {{ $imageWidth := div $fullWidth (.images | len)}}
+              {{/* e.g 600x */}}
+              {{ $regularSize := printf "%dx" $imageWidth }}
+              {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
 
-            {{ range .images }}
-              {{ $image := $.Resources.Get .src }}
-              {{ $imageDef := . }}
+              {{/* Column width in percentage */}}
+              {{ $columnWidth := div 100 (len .images) }}
 
-              {{ $alt := "" }}
-              {{ if .alt }}
-                {{ $alt = .alt }}
-              {{ else if .useCloseupAlt }}
-                {{ $alt = printf "A closeup detail of '%s'" $.Title }}
-              {{ else }}
-                {{ $alt = printf "An alternate rendering of '%s'" $.Title }}
+              {{ range .images }}
+                {{ $image := $.Resources.Get .src }}
+                {{ $imageDef := . }}
+
+                {{ $alt := "" }}
+                {{ if .alt }}
+                  {{ $alt = .alt }}
+                {{ else if .useCloseupAlt }}
+                  {{ $alt = printf "A closeup detail of '%s'" $.Title }}
+                {{ else if .useWIPAlt }}
+                  {{ $alt = printf "A WIP rendering of '%s'" $.Title }}
+                {{ else }}
+                  {{ $alt = printf "An alternate rendering of '%s'" $.Title }}
+                {{ end }}
+
+                {{ with $image }}
+                  <div
+                    class="content-block__column content-block__column--{{ $columnWidth }}
+                    {{ if $imageDef.mobileColumnWidth }}content-block__column--mobile-column-width-{{ $imageDef.mobileColumnWidth }}{{ end }}">
+
+                    <img
+                      class="fade-in-on-load is-hidden"
+                      src="{{ ($image.Resize $regularSize).RelPermalink }}"
+                      alt="{{ $alt }}"
+                      srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"
+                      loading="lazy"
+                    />
+                  </div>
+                {{ end }}
               {{ end }}
-
-              {{ with $image }}
-                <div
-                  class="content-block__column content-block__column--{{ $columnWidth }}
-                  {{ if $imageDef.mobileColumnWidth }}content-block__column--mobile-column-width-{{ $imageDef.mobileColumnWidth }}{{ end }}">
-
-                  <img
-                    class="fade-in-on-load is-hidden"
-                    src="{{ ($image.Resize $regularSize).RelPermalink }}"
-                    alt="{{ $alt }}"
-                    srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"
-                    loading="lazy"
-                  />
-                </div>
-              {{ end }}
+            </div>
+          {{ else if eq .blockType "Video" }}
+            {{ $video := $.Resources.Get .src }}
+            {{ with $video }}
+            <div class="video-wrapper">
+              <video
+                src="{{ $video }}"
+                controls
+              />
+            </div>
             {{ end }}
-          </div>
-        {{ else if eq .blockType "Video" }}
-          {{ $video := $.Resources.Get .src }}
-          {{ with $video }}
-          <div class="video-wrapper">
-            <video
-              src="{{ $video }}"
-              controls
-            />
-          </div>
+          {{ else if eq .blockType "CaptionText" }}
+            <div>caption</div>
           {{ end }}
-        {{ else if eq .blockType "CaptionText" }}
-          <div>caption</div>
-        {{ end }}
+        </div>
       </div>
-    </div>
+    {{ end }}
   {{ end }}
 
   <div class="container">
@@ -108,14 +120,15 @@
   }
 
   .artwork-page__headline h1 {
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.6rem;
   }
 
   .artwork-page__meta {
-    margin-left: 0.4rem;
+    margin: 0 0 0 0.1rem;
     font-style: italic;
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
+    font-family: var(--label-font-family);
   }
 
   .artwork-page__headline span {
@@ -124,6 +137,8 @@
 
   .back-link {
     margin-bottom: 0;
+    font-size: 14px;
+    font-family: var(--label-font-family);
   }
 
   .back-link a { 
@@ -161,29 +176,32 @@
     max-height: 100%;
   }
 
+  .content-block--type-Video {
+    margin-bottom: 1rem;
+  }
+
   .content-block video {
     max-width: 100%;
-  }
-
-  .content-block .flex-row {
-    flex-wrap: nowrap;
-  }
-
-  /* .content-block .flex-row {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-  } */
-  
-  .content-block__column {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
   }
 
   .video-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .content-block .flex-row {
+    flex-wrap: nowrap;
+  }
+
+  .content-block__column {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .content-block--is-last .content-block__column {
+    margin-bottom: 0;
   }
 
   .bottom-back-link {
@@ -197,8 +215,7 @@
     }
 
     .artwork-page__meta {
-      margin-bottom: 1rem;
-      margin-left: 0.2rem;
+      margin-left: 0;
     }
 
     .content-block .flex-row {
@@ -211,6 +228,7 @@
     .content-block__column--mobile-column-width-50 { max-width: 50%; }
     .content-block__column--mobile-column-width-33 { max-width: 33%; }
     .content-block__column--mobile-column-width-25 { max-width: 25%; }
+    .content-block__column--mobile-column-width-20 { max-width: 20%; }
   }
 </style>
 {{ end }}

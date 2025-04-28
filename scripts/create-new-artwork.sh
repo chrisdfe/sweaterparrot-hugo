@@ -24,7 +24,7 @@ function rename() {
 ---
 date: "$date"
 title: "$2"
-weight: "$weight"
+weight: $weight
 params:
   year: "$3"
 ---

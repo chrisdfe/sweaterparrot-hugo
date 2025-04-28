@@ -1,9 +1,10 @@
 ---
 date: "2025-04-22T21:18:58.858Z"
 draft: false
-title: "Covent Garden Series"
-weight: 20
+title: "Covent Garden"
+weight: 10
 params:
+  workType: "Image Series"
   mainImage: "images/covent-garden-mainimage.png"
   renderMainImage: false
   year: "2020-2021"
@@ -34,6 +35,9 @@ params:
     - blockType: "ImageRow"
       images:
         - src: "images/166.png"
+          mobileColumnWidth: 50
+        - src: "images/166-1.png"
+          mobileColumnWidth: 50
     - blockType: "ImageRow"
       images:
         - src: "images/165.png"
