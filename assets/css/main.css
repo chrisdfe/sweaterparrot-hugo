@@ -166,6 +166,12 @@ p {
   font-size: 14px;
 }
 
+@media (max-device-width: 480px) {
+  p {
+    font-size: 13px;
+  }
+}
+
 img {
   max-width: 100%;
 }
