@@ -8,20 +8,26 @@
     <!-- <p class="back-link"><a href="/"><span>←</span>back</a></p> -->
   </div>
     
+  {{ $renderMainImage := true }}
+  {{ if eq .Params.RenderMainImage false }}
+    {{ $renderMainImage = false }}
+  {{ end }}
 
-  {{ $mainImage := .Resources.Get .Params.MainImage }}
-  {{ with $mainImage }}
-  <div class="container">
-    <div class="artwork-page__main-image-wrapper">
-      <img
-        class="artwork-page__main-image fade-in-on-load is-hidden"
-        alt="'{{ .Title }}' by Christopher Ferris"
-        src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
-        srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
-        loading="eager"
-      />
-    </div>
-  </div>
+  {{ if eq $renderMainImage true }}
+    {{ $mainImage := .Resources.Get .Params.MainImage }}
+    {{ with $mainImage }}
+      <div class="container">
+        <div class="artwork-page__main-image-wrapper">
+          <img
+            class="artwork-page__main-image fade-in-on-load is-hidden"
+            alt="'{{ .Title }}' by Christopher Ferris"
+            src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
+            srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
+            loading="eager"
+          />
+        </div>
+      </div>
+    {{ end }}
   {{ end }}
 
   {{ .Content }}
@@ -40,7 +46,7 @@
 
             {{/* Column width in percentage */}}
             {{ $columnWidth := div 100 (len .images) }}
-            
+
             {{ range .images }}
               {{ $image := $.Resources.Get .src }}
               {{ $imageDef := . }}
@@ -55,8 +61,12 @@
               {{ end }}
 
               {{ with $image }}
-                <div class="content-block__column content-block__column--{{ $columnWidth }}">
+                <div
+                  class="content-block__column content-block__column--{{ $columnWidth }}
+                  {{ if $imageDef.mobileColumnWidth }}content-block__column--mobile-column-width-{{ $imageDef.mobileColumnWidth }}{{ end }}">
+
                   <img
+                    class="fade-in-on-load is-hidden"
                     src="{{ ($image.Resize $regularSize).RelPermalink }}"
                     alt="{{ $alt }}"
                     srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"
@@ -170,13 +180,6 @@
     margin-bottom: 1rem;
   }
 
-  /* .content-block__column.content-block__column--50 { max-width: 600px; }
-  .content-block__column.content-block__column--33 { max-width: 400px; }
-  .content-block__column.content-block__column--25 { max-width: 300px; } */
-
-  .content-block__column.content-block__column--align-vertically { max-width: 100%; }
-  .content-block__column.content-block__column--align-vertically.content-block__column--25 img { max-height: 400px; }
-
   .video-wrapper {
     display: flex;
     align-items: center;
@@ -188,12 +191,6 @@
   }
 
   @media (max-device-width: 480px) {
-    .content-block .flex-row {
-      flex-wrap: wrap;
-    }
-
-    .content-block__column.content-block__column--25 { flex-basis: 50%; max-width: 50%; }
-
     .artwork-page__headline {
       margin-top: 2rem;
       margin-bottom: 3rem;
@@ -203,6 +200,17 @@
       margin-bottom: 1rem;
       margin-left: 0.2rem;
     }
+
+    .content-block .flex-row {
+      flex-wrap: wrap;
+    }
+
+    .content-block__column.content-block__column--25 { max-width: 50%; }
+
+    .content-block__column--mobile-column-width-100 { max-width: 100%; }
+    .content-block__column--mobile-column-width-50 { max-width: 50%; }
+    .content-block__column--mobile-column-width-33 { max-width: 33%; }
+    .content-block__column--mobile-column-width-25 { max-width: 25%; }
   }
 </style>
 {{ end }}

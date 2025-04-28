@@ -317,7 +317,7 @@ main {
   }
 }
 
-.fade-in-on-load.is-fading-in {
+.fade-in-on-load.fade-in-on-load--is-visible {
   animation-name: fading-in-on-load;
   animation-duration: 0.5s;
   animation-fill-mode: forwards;

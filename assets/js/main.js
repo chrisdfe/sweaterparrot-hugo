@@ -31,14 +31,10 @@
 
   function fadeIn(img, next) {
     img.classList.remove('is-hidden')
-    img.classList.add('is-fading-in');
+    img.classList.add('fade-in-on-load--is-visible');
 
     setTimeout(() => {
       next();
-    }, 100);
-
-    setTimeout(() => {
-      img.classList.remove('is-fading-in');
-    }, 500);
+    }, 20);
   }
 })();
