@@ -69,10 +69,12 @@
         {{ else if eq .blockType "Video" }}
           {{ $video := $.Resources.Get .src }}
           {{ with $video }}
-          <video
-            src="{{ $video }}"
-            controls
-          />
+          <div class="video-wrapper">
+            <video
+              src="{{ $video }}"
+              controls
+            />
+          </div>
           {{ end }}
         {{ else if eq .blockType "CaptionText" }}
           <div>caption</div>
@@ -138,6 +140,11 @@
     display: block;
     margin-bottom: 1rem;
   }
+  
+  .content-block--type-ImageRow {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
 
   .content-block img {
     display: block;
@@ -169,6 +176,12 @@
 
   .content-block__column.content-block__column--align-vertically { max-width: 100%; }
   .content-block__column.content-block__column--align-vertically.content-block__column--25 img { max-height: 400px; }
+
+  .video-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   .bottom-back-link {
     margin-top: 3rem;

@@ -283,7 +283,7 @@ main {
 
 /* grid */
 .container {
-  max-width: calc(1200px + 2rem);
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
 }
