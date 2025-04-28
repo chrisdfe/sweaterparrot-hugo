@@ -37,9 +37,9 @@
             {{/* e.g 600x */}}
             {{ $regularSize := printf "%dx" $imageWidth }}
             {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
+
             {{/* Column width in percentage */}}
             {{ $columnWidth := div 100 (len .images) }}
-            {{ $alignVertically := .alignVertically }}
             
             {{ range .images }}
               {{ $image := $.Resources.Get .src }}
@@ -55,7 +55,7 @@
               {{ end }}
 
               {{ with $image }}
-                <div class="content-block__column content-block__column--{{ $columnWidth }} {{ if $alignVertically }}content-block__column--align-vertically{{ end }}">
+                <div class="content-block__column content-block__column--{{ $columnWidth }}">
                   <img
                     src="{{ ($image.Resize $regularSize).RelPermalink }}"
                     alt="{{ $alt }}"
@@ -149,9 +149,13 @@
   }
 
   .content-block .flex-row {
+    flex-wrap: nowrap;
+  }
+
+  /* .content-block .flex-row {
     margin-left: -0.5rem;
     margin-right: -0.5rem;
-  }
+  } */
   
   .content-block__column {
     padding-left: 0.5rem;
@@ -159,31 +163,24 @@
     margin-bottom: 1rem;
   }
 
-  /* .content-block__column.content-block__column--50 { max-width: 50%; }
-  .content-block__column.content-block__column--33 { max-width: 33%; }
-  .content-block__column.content-block__column--25 { max-width: 25%; } */
-
-  .content-block__column.content-block__column--50 {
-    max-height: 50%;
-  }
-
-  .content-block__column.content-block__column--33 { max-width: 33%; }
-
-  .content-block__column.content-block__column--25 { max-width: 25%; }
+  /* .content-block__column.content-block__column--50 { max-width: 600px; }
+  .content-block__column.content-block__column--33 { max-width: 400px; }
+  .content-block__column.content-block__column--25 { max-width: 300px; } */
 
   .content-block__column.content-block__column--align-vertically { max-width: 100%; }
-  .content-block__column.content-block__column--25.content-block__column--align-vertically { max-height: 300px; }
-
-
-  @media (max-device-width: 480px) {
-    .content-block__column.content-block__column--25 { max-width: 50%; }
-  }
+  .content-block__column.content-block__column--align-vertically.content-block__column--25 img { max-height: 400px; }
 
   .bottom-back-link {
     margin-top: 3rem;
   }
 
   @media (max-device-width: 480px) {
+    .content-block .flex-row {
+      flex-wrap: wrap;
+    }
+
+    .content-block__column.content-block__column--25 { flex-basis: 50%; max-width: 50%; }
+
     .artwork-page__headline {
       margin-top: 2rem;
       margin-bottom: 3rem;
