@@ -28,8 +28,8 @@
           <img
             class="artwork-page__main-image fade-in-on-load is-hidden"
             alt="'{{ .Title }}' by Christopher Ferris"
-            src="{{ ($mainImage.Resize "x1200").RelPermalink }}"
-            srcset="{{ ($mainImage.Resize "x2400").RelPermalink }} 2x"
+            src="{{ ($mainImage.Resize "x1200 webp").RelPermalink }}"
+            srcset="{{ ($mainImage.Resize "x2400 webp").RelPermalink }} 2x"
             loading="eager"
           />
         </div>
