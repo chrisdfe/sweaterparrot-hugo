@@ -1,3 +1,13 @@
+{{ define "extra-head" }}
+  <meta property="og:Title" content="{{ .Title }} by Christopher Ferris" />
+  <meta property="og:description" content="Christopher Ferris is an artist & illustrator from the PNW. Born in the UK and living in the United States since his teenage years, his work explores nostalgia, atmosphere, environments, and creating a strong sense of place." />
+  <meta property="og:type" content="website" />
+  {{ $mainImage := .Resources.Get .Params.MainImage }}
+  {{ with $mainImage }}
+    <meta property="og:image" content="{{ ($mainImage.Resize "x1200 webp").Permalink }}"/>
+  {{ end }}
+{{ end }}
+
 {{ define "main" }}
   <div class="container">
     <div class="artwork-page__headline">

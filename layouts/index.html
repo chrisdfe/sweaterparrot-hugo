@@ -1,3 +1,14 @@
+{{ define "extra-head" }}
+  <meta property="og:Title" content="{{ .Title }} by Christopher Ferris" />
+  <meta property="og:description" content="Christopher Ferris is an artist & illustrator from the PNW. Born in the UK and living in the United States since his teenage years, his work explores nostalgia, atmosphere, environments, and creating a strong sense of place." />
+  <meta property="og:type" content="website" />
+  {{ $works := where site.RegularPages "Section" "work" }}
+  {{ $firstWork := index $works (sub (len $works) 1) }}
+  {{ $mainImage := $firstWork.Resources.Get $firstWork.Params.mainImage }}
+    <meta property="og:image" content="{{ ($mainImage.Resize "x1200 webp").Permalink }}"/>
+{{ end }}
+
+
 {{ define "main" }}
   <div class="artwork-list-page">
     {{ $works := where site.RegularPages "Section" "work" }}

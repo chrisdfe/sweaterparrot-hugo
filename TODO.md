@@ -6,4 +6,4 @@
 - [x] set up google analytics
 - [x] favicon
 - [x] switch dns records over
-- [ ] og images
+- [x] og images
