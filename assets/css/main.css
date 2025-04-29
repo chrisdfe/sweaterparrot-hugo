@@ -285,7 +285,7 @@ main {
 }
 
 @media (max-device-width: 480px) {
-  .footer {
+  .footer p {
     font-size: 12px;
   }
 }

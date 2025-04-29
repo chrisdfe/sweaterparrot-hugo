@@ -1,5 +1,8 @@
 # TODO
 
-- go back to same scroll location after hitting the 'back' button on a work page
-- fix page speed - adding new fonts and images brought it down to 66
-- rewrite about page text
+- [x] go back to same scroll location after hitting the 'back' button on a work page
+- [x] fix page speed - adding new fonts and images brought it down to 66
+- [x] rewrite about page text
+- [ ] set up google analytics
+- [ ] switch dns records over
+- [ ] og images

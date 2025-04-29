@@ -1,13 +1,30 @@
 {{ define "main" }}
+
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=block" rel="stylesheet">
+
 <div class="about-page">
   <div class="container">
     <div class="flex-row">
       <div class="about-page__column">
         <div class="about-page__column-inner">
           <h1>About</h1>
+        
           <p>
-            Hello. I'm Christopher Ferris, an artist & illustrator from Seattle, WA. My work is largely about exploring atmosphere, shape, environments, and light.
-            If you want to contact me about a project you can <a href class="email-link">email me</a>, or message me on <a href="">bluesky</a> or <a href="">instagram</a>
+            Christopher Ferris is an artist & illustrator from the PNW. Born in the UK and living in the United States since his teenage years, his work explores nostalgia, atmosphere, environments, and creating a strong sense of place.
+          </p>
+
+          <p>
+            <ul class="social-links">
+              <li>
+                <a href class="email-link">email</a>
+              </li>
+              <li>
+                <a href="https://bsky.app/profile/sweaterparrot.bsky.social" target="_blank">bluesky</a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/sweaterparrot/" target="_blank">instagram</a>
+              </li>
+            </ul>
           </p>
         </div>
       </div>
@@ -54,6 +71,47 @@
 
   .about-page__column-inner {
     padding: 1rem;
+  }
+  
+  .social-links {
+    margin-top: 3rem;
+    list-style-type: none;
+    font-size: 13px;
+    font-family: var(--label-font-family);
+  }
+
+  @media (max-device-width: 480px) {
+   .social-links {
+      margin-top: 1.5rem;
+    } 
+  }
+
+  .social-links li {
+    display: inline-block;
+  }
+
+  .social-links li:after {
+    position: relative;
+    bottom: 2px;
+    content: "/";
+    margin: 0 0.1rem;
+    /* color: var(--body-text-color-secondary); */
+    font-size: 0.8em;
+  }
+
+  .social-links li:last-child:after {
+    content: "";
+    margin: 0;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    transition: color 0.2s;
+    color: var(--body-text-color-secondary);
+  }
+  
+  .social-links a:hover {
+    color: var(--body-text-color);
   }
 
   @media (max-device-width: 480px) {
