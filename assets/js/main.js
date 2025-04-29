@@ -31,7 +31,6 @@
 
   function fadeIn(img, next) {
     img.classList.remove('is-hidden')
-    img.classList.add('fade-in-on-load--is-visible');
 
     setTimeout(() => {
       next();
