@@ -55,8 +55,8 @@
               {{ $fullWidth := 1200 }}
               {{ $imageWidth := div $fullWidth (.images | len)}}
               {{/* e.g 600x */}}
-              {{ $regularSize := printf "%dx" $imageWidth }}
-              {{ $retinaSize := printf "%dx" (mul $imageWidth 2) }}
+              {{ $regularSize := printf "%dx webp" $imageWidth }}
+              {{ $retinaSize := printf "%dx webp" (mul $imageWidth 2) }}
 
               {{/* Column width in percentage */}}
               {{ $columnWidth := div 100 (len .images) }}
