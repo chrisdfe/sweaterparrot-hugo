@@ -17,5 +17,15 @@
 
     {{ block "page-scripts" . }}{{ end }}
   </div>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-29EPTE4N8V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-29EPTE4N8V');
+  </script>
 </body>
 </html>

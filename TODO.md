@@ -5,5 +5,5 @@
 - [x] rewrite about page text
 - [x] set up google analytics
 - [x] favicon
-- [ ] switch dns records over
+- [x] switch dns records over
 - [ ] og images
