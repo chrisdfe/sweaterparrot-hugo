@@ -9,4 +9,5 @@ params:
   contentBlocks:
     - blockType: "Video"
       src: "videos/140.mp4"
+      poster: "images/140-poster.png"
 ---
