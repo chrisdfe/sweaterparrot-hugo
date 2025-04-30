@@ -1,6 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://sweaterparrot.com/'
 languageCode = 'en-us'
 title = 'sweaterparrot'
+
+[params]
+  bioBlurb = "Christopher Ferris is an artist & illustrator from the PNW. Born in the UK and living in the United States since his teenage years, his work explores nostalgia, atmosphere, environments, and creating a strong sense of place."
 
 [menus]
   [[menus.main]]
