@@ -30,4 +30,5 @@ params:
           mobileColumnWidth: 33
     - blockType: "Video"
       src: "videos/260-animation-final.mp4"
+      poster: "images/video-poster.png"
 ---

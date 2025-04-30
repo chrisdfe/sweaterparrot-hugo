@@ -9,6 +9,7 @@ params:
   contentBlocks:
     - blockType: "Video"
       src: "videos/226.mp4"
+      poster: "images/226-wip-5.png"
     - blockType: "ImageRow"
       images:
         - src: "images/226-wip-1.png"

@@ -102,13 +102,15 @@
             </div>
           {{ else if eq .blockType "Video" }}
             {{ $video := $.Resources.Get .src }}
-            {{ with $video }}
-            <div class="video-wrapper">
-              <video
-                src="{{ $video }}"
-                controls
-              />
-            </div>
+            {{ $poster := .poster }}
+            {{ with $video  }}
+              <div class="video-wrapper">
+                <video
+                  src="{{ $video }}"
+                  poster="{{ $poster }}"
+                  controls
+                />
+              </div>
             {{ end }}
           {{ else if eq .blockType "CaptionText" }}
             <div>caption</div>
@@ -205,6 +207,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* NOTE! only square videos supported rn */
+    position: relative;
+    padding-bottom: 100%;
+  }
+
+  .video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .content-block .flex-row {

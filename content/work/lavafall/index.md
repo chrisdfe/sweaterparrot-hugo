@@ -10,4 +10,5 @@ params:
   contentBlocks:
     - blockType: "Video"
       src: "videos/319-1-wip-10_1.mp4"
+      poster: "images/lavafall-mainimage.png"
 ---
