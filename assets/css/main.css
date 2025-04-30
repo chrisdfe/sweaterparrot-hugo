@@ -308,9 +308,3 @@ main {
     padding: 0 1rem;
   }
 }
-
-/* fading in images */
-.fade-in-on-load {
-  opacity: 1;
-  transition: all 0.5s;
-}
