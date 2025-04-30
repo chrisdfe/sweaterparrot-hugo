@@ -36,7 +36,7 @@
       <div class="container">
         <div class="artwork-page__main-image-wrapper {{ if not $hasContentBlocks }}artwork-page__main-image-wrapper--no-content-blocks{{ end }}">
           <img
-            class="artwork-page__main-image fade-in-on-load is-hidden"
+            class="artwork-page__main-image fade-in-on-load"
             alt="'{{ .Title }}' by Christopher Ferris"
             src="{{ ($mainImage.Resize "x1200 webp").RelPermalink }}"
             srcset="{{ ($mainImage.Resize "x2400 webp").RelPermalink }} 2x"
@@ -91,7 +91,7 @@
                     {{ if $imageDef.mobileColumnWidth }}content-block__column--mobile-column-width-{{ $imageDef.mobileColumnWidth }}{{ end }}">
 
                     <img
-                      class="fade-in-on-load is-hidden"
+                      class="fade-in-on-load"
                       src="{{ ($image.Resize $regularSize).RelPermalink }}"
                       alt="{{ $alt }}"
                       srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"

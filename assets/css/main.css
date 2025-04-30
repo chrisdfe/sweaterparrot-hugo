@@ -314,8 +314,3 @@ main {
   opacity: 1;
   transition: all 0.5s;
 }
-
-.fade-in-on-load.is-hidden {
-  opacity: 0;
-  transform: translateY(5px);
-}

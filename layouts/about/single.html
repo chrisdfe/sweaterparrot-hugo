@@ -40,7 +40,7 @@
       <div class="about-page__column">
         <div class="about-page__column-inner">
           {{ $aboutImage := .Resources.Get "images/306.png" }}
-          <img class="about-page__image fade-in-on-load is-hidden" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
+          <img class="about-page__image fade-in-on-load" src="{{ ($aboutImage.Resize "600x").RelPermalink }}" />
         </div>
       </div>
     </div>
