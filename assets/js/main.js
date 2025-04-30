@@ -1,3 +1,4 @@
+// fade in on image load
 (function () {
   const imagesToFadeIn = document.querySelectorAll('.fade-in-on-load');
 
@@ -17,6 +18,9 @@
       currentImage.addEventListener('load', () => {
         fadeInCurrentImage();
       });
+
+      // for mobile safari compatibility
+      currentImage.onload = fadeInCurrentImage;
     }
   };
 
