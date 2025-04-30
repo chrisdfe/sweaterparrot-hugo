@@ -40,7 +40,6 @@
             alt="'{{ .Title }}' by Christopher Ferris"
             src="{{ ($mainImage.Resize "x1200 webp").RelPermalink }}"
             srcset="{{ ($mainImage.Resize "x2400 webp").RelPermalink }} 2x"
-            loading="eager"
           />
         </div>
       </div>
@@ -96,7 +95,6 @@
                       src="{{ ($image.Resize $regularSize).RelPermalink }}"
                       alt="{{ $alt }}"
                       srcset="{{ ($image.Resize $retinaSize).RelPermalink }} 2x"
-                      loading="lazy"
                     />
                   </div>
                 {{ end }}
