@@ -23,7 +23,12 @@ Renders a menu for the given menu ID.
   {{- range .menuEntries }}
 
     {{- $attrs := dict "href" .URL }}
-    {{- if or ($page.IsMenuCurrent .Menu .) (eq $page.Permalink .URL) }}
+    {{ $regularIsActive := or ($page.IsMenuCurrent .Menu .) (eq $page.Permalink .URL) }}
+    {{/* a one-off case I want to handle here */}}
+    {{ $isHomeLink := eq .URL "/" }}
+    {{ $isOnWorkPage := strings.Contains $page.Permalink "work" }}
+    {{ $workLinkIsActive := and $isHomeLink $isOnWorkPage }}
+    {{- if or $regularIsActive $workLinkIsActive }}
       {{- $attrs = merge $attrs (dict "class" "active" "aria-current" "page") }}
     {{- else if $page.HasMenuCurrent .Menu .}}
       {{- $attrs = merge $attrs (dict "class" "ancestor" "aria-current" "true") }}
