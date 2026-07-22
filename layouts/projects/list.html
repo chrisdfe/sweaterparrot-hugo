@@ -1,22 +1,39 @@
 {{ define "main" }}
   {{ $projects := where .Site.RegularPages "Section" "projects" }}
 
-  <div class="container">
-  {{ range $projects }}
-    <div class="project-tile">
-      <a class="project-tile__link" href="{{ .Permalink }}">
-        {{ .Title }}
-      </a>
+  <div class="project-list-page">
+    <div class="container">
+    {{ range $projects }}
+      {{ $mainImage := .Resources.Get .Params.MainImage }}
+
+      <div class="project-tile">
+        <a class="project-tile__link" href="{{ .Permalink }}">
+          <div class="product-image-wrapper">
+            <img
+              src="{{ ($mainImage.Fill "300x300 Center webp").RelPermalink }}"
+              alt="{{ .Title }}"
+            >
+          </div>
+
+          {{ .Title }}
+        </a>
+      </div>
+    {{ end }}
     </div>
-  {{ end }}
   </div>
 {{ end }}
 
 {{ define "page-styles" }}
   <style>
-    .project-tile {
-      width: 100%;
+    .project-list-page .container {
+      display: flex;
+      flex-wrap: wrap;
     }
+
+    .project-tile {
+      width: 50%;
+    }
+
     .project-tile__link {
       color: var(--body-text-color);
     }
