@@ -12,6 +12,11 @@ title = 'sweaterparrot'
     weight = 30
 
   [[menus.main]]
+    name = 'Projects'
+    pageRef = '/projects'
+    weight = 40
+
+  [[menus.main]]
     name = 'About'
     pageRef = '/about'
     weight = 50
